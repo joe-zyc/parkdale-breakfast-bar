@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div className={`app-shell view-${viewportType}`}>
-      <Header site={site} />
+      <Header site={site} isPhone={isPhone} />
 
       <main>
         <section className="hero" id="home">

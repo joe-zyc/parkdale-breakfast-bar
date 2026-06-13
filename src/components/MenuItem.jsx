@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 export default function MenuItem({ item, isPhone }) {
   const [isPhotoExpanded, setIsPhotoExpanded] = useState(false);
-  const shouldUseDropdownImage = Boolean(item.image && isPhone);
+  const shouldUsePhoneImageToggle = Boolean(item.image && isPhone);
 
   useEffect(() => {
     if (!isPhone && isPhotoExpanded) {
@@ -10,9 +10,29 @@ export default function MenuItem({ item, isPhone }) {
     }
   }, [isPhone, isPhotoExpanded]);
 
+  function togglePhoto() {
+    if (shouldUsePhoneImageToggle) {
+      setIsPhotoExpanded((current) => !current);
+    }
+  }
+
+  function handleKeyDown(event) {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      togglePhoto();
+    }
+  }
+
   return (
-    <article className={item.image ? 'menu-item with-image' : 'menu-item'}>
-      {item.image && !shouldUseDropdownImage ? (
+    <article
+      className={item.image ? 'menu-item with-image' : 'menu-item'}
+      role={shouldUsePhoneImageToggle ? 'button' : undefined}
+      tabIndex={shouldUsePhoneImageToggle ? 0 : undefined}
+      aria-expanded={shouldUsePhoneImageToggle ? isPhotoExpanded : undefined}
+      onClick={togglePhoto}
+      onKeyDown={shouldUsePhoneImageToggle ? handleKeyDown : undefined}
+    >
+      {item.image && !shouldUsePhoneImageToggle ? (
         <img className="menu-item-image" src={item.image} alt={item.name} loading="lazy" />
       ) : null}
 
@@ -21,22 +41,11 @@ export default function MenuItem({ item, isPhone }) {
           <h4>{item.name}</h4>
           <div className="menu-item-meta">
             <span>{item.price}</span>
-            {shouldUseDropdownImage ? (
-              <button
-                className="photo-button"
-                type="button"
-                aria-expanded={isPhotoExpanded}
-                aria-label={isPhotoExpanded ? `Hide ${item.name} photo` : `Show ${item.name} photo`}
-                onClick={() => setIsPhotoExpanded((current) => !current)}
-              >
-                <span className="photo-button-icon" aria-hidden="true" />
-              </button>
-            ) : null}
           </div>
         </div>
         {item.description ? <p>{item.description}</p> : null}
 
-        {shouldUseDropdownImage ? (
+        {shouldUsePhoneImageToggle ? (
           <div className={isPhotoExpanded ? 'photo-dropdown is-open' : 'photo-dropdown'}>
             <img src={item.image} alt={item.name} loading="lazy" />
           </div>
