@@ -1,0 +1,24 @@
+{
+  "name": "Corner Tap Bar",
+  "tagline": "Cold drinks, fresh plates, and a relaxed neighborhood bar feel.",
+  "description": "A casual bar and restaurant serving shareable snacks, hearty mains, and a simple drink list for dine-in or delivery.",
+  "address": "123 Main Street, Toronto, ON",
+  "phone": "+1 416-555-0199",
+  "email": "hello@cornertap.example",
+  "hours": [
+    {
+      "days": "Monday - Thursday",
+      "time": "4:00 PM - 11:00 PM"
+    },
+    {
+      "days": "Friday - Saturday",
+      "time": "4:00 PM - 1:00 AM"
+    },
+    {
+      "days": "Sunday",
+      "time": "12:00 PM - 10:00 PM"
+    }
+  ],
+  "mapUrl": "https://maps.google.com/?q=123+Main+Street+Toronto",
+  "uberEatsUrl": "https://www.ubereats.com/"
+}

@@ -1,0 +1,77 @@
+{
+  "sections": [
+    {
+      "id": "appetizers",
+      "title": "Appetizers",
+      "description": "Small plates to start or share.",
+      "items": [
+        {
+          "name": "Loaded Nachos",
+          "description": "Tortilla chips with cheese, jalapenos, salsa, sour cream, and green onion.",
+          "price": "$16"
+        },
+        {
+          "name": "Crispy Wings",
+          "description": "One pound of wings tossed in your choice of hot, BBQ, or honey garlic sauce.",
+          "price": "$18",
+          "image": "/images/menu/wings.png"
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "title": "Mains",
+      "description": "Comfortable bar favorites.",
+      "items": [
+        {
+          "name": "Classic Burger",
+          "description": "Beef patty, cheddar, lettuce, tomato, onion, pickles, and house sauce.",
+          "price": "$19"
+        },
+        {
+          "name": "Fish & Chips",
+          "description": "Beer-battered fish with fries, tartar sauce, and lemon.",
+          "price": "$21"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "title": "Snacks",
+      "items": [
+        {
+          "name": "Fries",
+          "description": "Crispy fries with house seasoning.",
+          "price": "$8"
+        },
+        {
+          "name": "Pretzel Bites",
+          "description": "Warm pretzel bites with mustard dip.",
+          "price": "$10"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "description": "Beer, cocktails, and non-alcoholic options.",
+      "items": [
+        {
+          "name": "House Lager",
+          "description": "Draft pint.",
+          "price": "$8"
+        },
+        {
+          "name": "Old Fashioned",
+          "description": "Whiskey, bitters, sugar, and orange.",
+          "price": "$14"
+        },
+        {
+          "name": "Sparkling Lemonade",
+          "description": "Fresh lemon, soda, and simple syrup.",
+          "price": "$6"
+        }
+      ]
+    }
+  ]
+}
