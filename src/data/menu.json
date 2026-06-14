@@ -4,17 +4,49 @@
       "id": "appetizers",
       "title": "Appetizers",
       "description": "Small plates to start or share.",
-      "items": [
+      "subsections": [
         {
-          "name": "Loaded Nachos",
-          "description": "Tortilla chips with cheese, jalapenos, salsa, sour cream, and green onion.",
-          "price": "$16"
+          "id": "shareables",
+          "title": "Shareables",
+          "items": [
+            {
+              "name": "Loaded Nachos",
+              "description": "Tortilla chips with cheese, jalapenos, salsa, sour cream, and green onion.",
+              "price": "$16"
+            },
+            {
+              "name": "Spinach Artichoke Dip",
+              "description": "Warm cheese dip with toasted pita and tortilla chips.",
+              "price": "$15"
+            },
+            {
+              "name": "Truffle Fries",
+              "description": "Crispy fries tossed with parmesan, parsley, and truffle aioli.",
+              "price": "$12"
+            }
+          ]
         },
         {
-          "name": "Crispy Wings",
-          "description": "One pound of wings tossed in your choice of hot, BBQ, or honey garlic sauce.",
-          "price": "$18",
-          "image": "/images/menu/wings.png"
+          "id": "wings",
+          "title": "Wings",
+          "items": [
+            {
+              "name": "Crispy Wings",
+              "description": "One pound of wings tossed in your choice of hot, BBQ, or honey garlic sauce.",
+              "price": "$18",
+              "image": "/images/menu/wings.png"
+            },
+            {
+              "name": "Dry Rub Wings",
+              "description": "One pound of wings with smoky house spice and ranch dip.",
+              "price": "$18"
+            },
+            {
+              "name": "Cauliflower Wings",
+              "description": "Crispy cauliflower bites tossed in buffalo sauce with vegan ranch.",
+              "price": "$15"
+            }
+          ]
         }
       ]
     },
@@ -22,32 +54,92 @@
       "id": "mains",
       "title": "Mains",
       "description": "Comfortable bar favorites.",
-      "items": [
+      "subsections": [
         {
-          "name": "Classic Burger",
-          "description": "Beef patty, cheddar, lettuce, tomato, onion, pickles, and house sauce.",
-          "price": "$19"
+          "id": "burgers",
+          "title": "Burgers & Sandwiches",
+          "items": [
+            {
+              "name": "Classic Burger",
+              "description": "Beef patty, cheddar, lettuce, tomato, onion, pickles, and house sauce.",
+              "price": "$19"
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "description": "Buttermilk fried chicken, slaw, pickles, and spicy mayo.",
+              "price": "$18"
+            },
+            {
+              "name": "Mushroom Swiss Burger",
+              "description": "Beef patty with sauteed mushrooms, Swiss cheese, and garlic aioli.",
+              "price": "$20"
+            }
+          ]
         },
         {
-          "name": "Fish & Chips",
-          "description": "Beer-battered fish with fries, tartar sauce, and lemon.",
-          "price": "$21"
+          "id": "plates",
+          "title": "Plates",
+          "items": [
+            {
+              "name": "Fish & Chips",
+              "description": "Beer-battered fish with fries, tartar sauce, and lemon.",
+              "price": "$21"
+            },
+            {
+              "name": "Steak Frites",
+              "description": "Grilled striploin, herb butter, fries, and mixed greens.",
+              "price": "$28"
+            },
+            {
+              "name": "Pesto Rigatoni",
+              "description": "Rigatoni with basil pesto, cherry tomatoes, parmesan, and arugula.",
+              "price": "$19"
+            }
+          ]
         }
       ]
     },
     {
       "id": "snacks",
       "title": "Snacks",
-      "items": [
+      "description": "Quick bites for the table.",
+      "subsections": [
         {
-          "name": "Fries",
-          "description": "Crispy fries with house seasoning.",
-          "price": "$8"
+          "id": "salty",
+          "title": "Salty",
+          "items": [
+            {
+              "name": "Fries",
+              "description": "Crispy fries with house seasoning.",
+              "price": "$8"
+            },
+            {
+              "name": "Pretzel Bites",
+              "description": "Warm pretzel bites with mustard dip.",
+              "price": "$10"
+            },
+            {
+              "name": "Kettle Chips",
+              "description": "House chips with onion dip.",
+              "price": "$7"
+            }
+          ]
         },
         {
-          "name": "Pretzel Bites",
-          "description": "Warm pretzel bites with mustard dip.",
-          "price": "$10"
+          "id": "fresh",
+          "title": "Fresh",
+          "items": [
+            {
+              "name": "House Pickles",
+              "description": "Seasonal pickled vegetables with dill and chili.",
+              "price": "$6"
+            },
+            {
+              "name": "Caesar Salad",
+              "description": "Romaine, parmesan, croutons, and creamy Caesar dressing.",
+              "price": "$13"
+            }
+          ]
         }
       ]
     },
@@ -55,21 +147,69 @@
       "id": "drinks",
       "title": "Drinks",
       "description": "Beer, cocktails, and non-alcoholic options.",
-      "items": [
+      "subsections": [
         {
-          "name": "House Lager",
-          "description": "Draft pint.",
-          "price": "$8"
+          "id": "beer",
+          "title": "Beer",
+          "items": [
+            {
+              "name": "House Lager",
+              "description": "Draft pint.",
+              "price": "$8"
+            },
+            {
+              "name": "Amber Ale",
+              "description": "Draft pint with caramel malt and a crisp finish.",
+              "price": "$9"
+            },
+            {
+              "name": "Rotating IPA",
+              "description": "Ask about today's local tap.",
+              "price": "$10"
+            }
+          ]
         },
         {
-          "name": "Old Fashioned",
-          "description": "Whiskey, bitters, sugar, and orange.",
-          "price": "$14"
+          "id": "cocktails",
+          "title": "Cocktails",
+          "items": [
+            {
+              "name": "Old Fashioned",
+              "description": "Whiskey, bitters, sugar, and orange.",
+              "price": "$14"
+            },
+            {
+              "name": "Spicy Margarita",
+              "description": "Tequila, lime, orange liqueur, and jalapeno.",
+              "price": "$15"
+            },
+            {
+              "name": "Negroni",
+              "description": "Gin, bitter aperitif, sweet vermouth, and orange.",
+              "price": "$15"
+            }
+          ]
         },
         {
-          "name": "Sparkling Lemonade",
-          "description": "Fresh lemon, soda, and simple syrup.",
-          "price": "$6"
+          "id": "non-alcoholic",
+          "title": "Non-Alcoholic",
+          "items": [
+            {
+              "name": "Sparkling Lemonade",
+              "description": "Fresh lemon, soda, and simple syrup.",
+              "price": "$6"
+            },
+            {
+              "name": "Ginger Beer",
+              "description": "Spicy non-alcoholic ginger beer over ice.",
+              "price": "$5"
+            },
+            {
+              "name": "Iced Tea",
+              "description": "Fresh brewed black tea with lemon.",
+              "price": "$5"
+            }
+          ]
         }
       ]
     }

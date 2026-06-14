@@ -272,10 +272,41 @@ h4 {
   margin-bottom: 18px;
 }
 
+.menu-section-heading h3 {
+  text-transform: uppercase;
+}
+
 .menu-section-heading p {
   max-width: 680px;
   color: #665a50;
   line-height: 1.6;
+}
+
+.menu-subsections {
+  display: grid;
+  gap: 28px;
+}
+
+.menu-subsection {
+  display: grid;
+  gap: 14px;
+}
+
+.menu-subsection-heading {
+  display: grid;
+  gap: 4px;
+}
+
+.menu-subsection-heading h4 {
+  color: #9b3f20;
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+.menu-subsection-heading p {
+  margin-bottom: 0;
+  color: #665a50;
+  line-height: 1.55;
 }
 
 .menu-items {
@@ -594,6 +625,10 @@ h4 {
   .menu-section {
     scroll-margin-top: 76px;
     padding-top: 24px;
+  }
+
+  .menu-subsections {
+    gap: 24px;
   }
 
   .contact-grid {
