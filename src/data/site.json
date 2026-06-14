@@ -1,9 +1,8 @@
 {
   "name": "Parkdale Breakfast Bar & Grill",
-  "description": "A casual bar and restaurant serving shareable snacks, hearty mains, and a simple drink list for dine-in or delivery.",
-  "address": "1449 Queen St W, Toronto, ON M6R 1A1",
+  "description": "A relaxed Queen Street West bar serving breakfast favourites, comfort food, and drinks. With late weekend hours, a great spot for brunch, a casual meal, or an evening out.",
+  "address": "1449 Queen St W, Toronto",
   "phone": "+1 416-901-1858",
-  "email": "hello@parkdalebreakfastbar.example",
   "hours": [
     {
       "days": "Monday - Thursday",

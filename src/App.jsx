@@ -41,7 +41,9 @@ export default function App() {
       <main>
         <section className="hero" id="home">
           <div className="container hero-content">
-            <p className="eyebrow">1449 Queen St W, Toronto</p>
+            <a className="eyebrow location-link" href={site.mapUrl} target="_blank" rel="noreferrer">
+              {site.address}
+            </a>
             <h1>{site.name}</h1>
             <p className="description">{site.description}</p>
             <div className="actions">

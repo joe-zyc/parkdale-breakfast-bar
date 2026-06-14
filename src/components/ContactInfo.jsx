@@ -16,12 +16,9 @@ export default function ContactInfo({ site }) {
 
       <div className="contact-details">
         <div>
-          <h3>Contact</h3>
+          <h3>Call Us</h3>
           <p>
             <a href={`tel:${site.phone}`}>{site.phone}</a>
-          </p>
-          <p>
-            <a href={`mailto:${site.email}`}>{site.email}</a>
           </p>
         </div>
 
