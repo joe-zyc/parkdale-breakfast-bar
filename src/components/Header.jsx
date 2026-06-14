@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function Header({ site, isPhone }) {
+export default function Header({ site, isPhone, onNavigate }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -11,11 +11,17 @@ export default function Header({ site, isPhone }) {
 
   const navLinksClass = isMenuOpen ? 'nav-links is-open' : 'nav-links';
 
+  function handleSectionLink(event, sectionId) {
+    event.preventDefault();
+    setIsMenuOpen(false);
+    window.setTimeout(() => onNavigate(sectionId), 0);
+  }
+
   return (
     <header className="site-header">
       <nav className="container nav" aria-label="Main navigation">
         <div className="nav-top">
-          <a className="brand" href="#home" onClick={() => setIsMenuOpen(false)}>
+          <a className="brand" href="#home" onClick={(event) => handleSectionLink(event, 'home')}>
             {site.name}
           </a>
           {isPhone ? (
@@ -34,10 +40,10 @@ export default function Header({ site, isPhone }) {
         </div>
 
         <div className={navLinksClass}>
-          <a href="#menu" onClick={() => setIsMenuOpen(false)}>
+          <a href="#menu" onClick={(event) => handleSectionLink(event, 'menu')}>
             Menu
           </a>
-          <a href="#contact" onClick={() => setIsMenuOpen(false)}>
+          <a href="#contact" onClick={(event) => handleSectionLink(event, 'contact')}>
             Contact
           </a>
           <a href={site.uberEatsUrl} target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>

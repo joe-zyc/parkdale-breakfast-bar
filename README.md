@@ -50,7 +50,7 @@ Put menu images in `public/images/menu/`. Items without an `image` still render 
 Edit `src/data/site.json` to change:
 
 - restaurant name
-- tagline and description
+- description
 - address
 - phone and email
 - opening hours

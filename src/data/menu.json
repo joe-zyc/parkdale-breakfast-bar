@@ -3,7 +3,6 @@
     {
       "id": "appetizers",
       "title": "Appetizers",
-      "description": "Small plates to start or share.",
       "subsections": [
         {
           "id": "shareables",
@@ -53,7 +52,6 @@
     {
       "id": "mains",
       "title": "Mains",
-      "description": "Comfortable bar favorites.",
       "subsections": [
         {
           "id": "burgers",
@@ -102,7 +100,6 @@
     {
       "id": "snacks",
       "title": "Snacks",
-      "description": "Quick bites for the table.",
       "subsections": [
         {
           "id": "salty",
@@ -146,7 +143,6 @@
     {
       "id": "drinks",
       "title": "Drinks",
-      "description": "Beer, cocktails, and non-alcoholic options.",
       "subsections": [
         {
           "id": "beer",
@@ -175,7 +171,6 @@
           "items": [
             {
               "name": "Old Fashioned",
-              "description": "Whiskey, bitters, sugar, and orange.",
               "price": "$14"
             },
             {

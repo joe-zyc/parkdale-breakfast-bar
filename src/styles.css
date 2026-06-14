@@ -56,10 +56,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: inherit;
 }
 
 .brand {
-  color: #fffaf5;
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: #f7eadf;
   font-size: 1.05rem;
   font-weight: 800;
   line-height: 1.15;
@@ -70,7 +74,7 @@ a {
   display: flex;
   align-items: center;
   gap: 18px;
-  color: #f3e5d6;
+  color: #ead8c8;
   font-size: 0.95rem;
   font-weight: 700;
   white-space: nowrap;
@@ -94,8 +98,8 @@ a {
 .hero {
   display: flex;
   align-items: center;
-  min-height: 58vh;
-  padding: 80px 0;
+  min-height: 42vh;
+  padding: 56px 0;
   background: #efe4d5;
 }
 
@@ -130,9 +134,9 @@ p {
 }
 
 h1 {
-  margin-bottom: 14px;
-  font-size: clamp(2.5rem, 7vw, 5rem);
-  line-height: 0.98;
+  margin-bottom: 12px;
+  font-size: clamp(2.25rem, 6vw, 4.2rem);
+  line-height: 1;
 }
 
 h2 {
@@ -151,14 +155,6 @@ h4 {
   font-size: 1rem;
 }
 
-.tagline {
-  max-width: 680px;
-  margin-bottom: 16px;
-  color: #4a3830;
-  font-size: clamp(1.2rem, 2vw, 1.55rem);
-  line-height: 1.35;
-}
-
 .description {
   max-width: 680px;
   color: #665a50;
@@ -170,7 +166,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 28px;
+  margin-top: 22px;
 }
 
 .button {
@@ -246,12 +242,12 @@ h4 {
 
 .menu-layout {
   display: grid;
-  gap: 28px;
+  gap: 24px;
 }
 
 .menu-section {
   scroll-margin-top: 92px;
-  padding-top: 28px;
+  padding-top: 24px;
   border-top: 1px solid #e2d8cd;
   animation: menu-section-enter 220ms ease both;
 }
@@ -269,7 +265,7 @@ h4 {
 }
 
 .menu-section-heading {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 
 .menu-section-heading h3 {
@@ -284,17 +280,18 @@ h4 {
 
 .menu-subsections {
   display: grid;
-  gap: 28px;
+  gap: 34px;
 }
 
 .menu-subsection {
   display: grid;
-  gap: 14px;
+  gap: 10px;
 }
 
 .menu-subsection-heading {
   display: grid;
-  gap: 4px;
+  gap: 3px;
+  margin-bottom: 2px;
 }
 
 .menu-subsection-heading h4 {
@@ -312,23 +309,26 @@ h4 {
 .menu-items {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  column-gap: 28px;
+  row-gap: 0;
 }
 
 .menu-item {
   position: relative;
   display: flex;
-  min-height: 128px;
+  gap: 18px;
+  min-height: 0;
   overflow: hidden;
-  border: 1px solid #e2d8cd;
-  border-radius: 8px;
-  background: #fffdf9;
-  box-shadow: 0 1px 0 rgba(45, 37, 32, 0.04);
+  border: 0;
+  border-bottom: 1px solid #e2d8cd;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .menu-item-content {
   width: 100%;
-  padding: 18px;
+  padding: 16px 0 18px;
 }
 
 .menu-item-header {
@@ -336,7 +336,7 @@ h4 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .menu-item-header h4 {
@@ -360,13 +360,15 @@ h4 {
 .menu-item p {
   margin-bottom: 0;
   color: #665a50;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .menu-item-image {
   width: 128px;
   flex: 0 0 128px;
-  min-height: 128px;
+  min-height: 116px;
+  margin: 16px 0 18px;
+  border-radius: 8px;
   object-fit: cover;
   background: #e5ded4;
 }
@@ -441,11 +443,15 @@ h4 {
 
 .view-phone .menu-item.with-image {
   flex-direction: row;
-  border-left-color: #9b3f20;
+  gap: 0;
   cursor: pointer;
   transition:
     border-color 180ms ease,
     box-shadow 180ms ease;
+}
+
+.view-phone .menu-item.with-image .menu-item-header {
+  align-items: baseline;
 }
 
 .view-phone .menu-item.with-image:focus-visible {
@@ -454,16 +460,17 @@ h4 {
 }
 
 .view-phone .menu-item.with-image[aria-expanded='true'] {
-  border-color: #caa58f;
-  box-shadow: 0 8px 24px rgba(45, 37, 32, 0.08);
+  border-bottom-color: #caa58f;
+  box-shadow: none;
 }
 
 .view-phone .menu-item.with-image::before {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 16px;
+  bottom: 16px;
   left: 0;
-  width: 5px;
+  width: 3px;
+  border-radius: 999px;
   background: #9b3f20;
   content: "";
 }
@@ -485,14 +492,14 @@ h4 {
 .photo-dropdown.is-open {
   grid-template-rows: 1fr;
   opacity: 1;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .photo-dropdown img {
   display: block;
   width: 100%;
   min-height: 0;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
@@ -533,7 +540,7 @@ h4 {
     border: 1px solid rgba(64, 50, 43, 0.97);
     border-radius: 6px;
     background: rgba(64, 50, 43, 0.97);
-    color: #fffaf5;
+    color: #f7eadf;
   }
 
   .nav-toggle span {
@@ -586,7 +593,7 @@ h4 {
 
   .hero {
     min-height: auto;
-    padding: 48px 0 52px;
+    padding: 34px 0 38px;
   }
 
   .section {
@@ -599,7 +606,7 @@ h4 {
   }
 
   .menu-layout {
-    gap: 24px;
+    gap: 22px;
   }
 
   .menu-nav {
@@ -624,11 +631,11 @@ h4 {
 
   .menu-section {
     scroll-margin-top: 76px;
-    padding-top: 24px;
+    padding-top: 22px;
   }
 
   .menu-subsections {
-    gap: 24px;
+    gap: 28px;
   }
 
   .contact-grid {
@@ -642,7 +649,7 @@ h4 {
   }
 
   h1 {
-    font-size: 2.45rem;
+    font-size: 2.15rem;
     line-height: 1;
   }
 
@@ -650,8 +657,14 @@ h4 {
     font-size: 1.9rem;
   }
 
-  .tagline {
-    font-size: 1.12rem;
+  .section-heading {
+    margin-bottom: 20px;
+  }
+
+  .menu-eyebrow {
+    margin-bottom: 4px;
+    font-size: 2.6rem;
+    line-height: 1;
   }
 
   .menu-item {
@@ -659,11 +672,22 @@ h4 {
   }
 
   .menu-item-content {
-    padding: 16px;
+    padding: 14px 0 16px 18px;
+  }
+
+  .view-phone .menu-item.with-image .menu-item-content {
+    padding-top: 16px;
+    padding-bottom: 18px;
   }
 
   .menu-item-header {
     gap: 12px;
+    margin-bottom: 5px;
+  }
+
+  .view-phone .menu-item.with-image .menu-item-header {
+    gap: 14px;
+    margin-bottom: 7px;
   }
 
   .hours-list div {

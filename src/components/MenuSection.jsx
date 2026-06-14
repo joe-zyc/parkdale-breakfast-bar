@@ -7,7 +7,6 @@ export default function MenuSection({ section, isPhone }) {
     <section className="menu-section" id={section.id} role="tabpanel" aria-labelledby={`${section.id}-heading`}>
       <div className="menu-section-heading">
         <h3 id={`${section.id}-heading`}>{section.title}</h3>
-        {section.description ? <p>{section.description}</p> : null}
       </div>
 
       {hasSubsections ? (

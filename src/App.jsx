@@ -12,19 +12,40 @@ export default function App() {
   const [activeSectionId, setActiveSectionId] = useState(menu.sections[0]?.id ?? '');
   const activeSection = menu.sections.find((section) => section.id === activeSectionId) ?? menu.sections[0];
 
+  function scrollToSection(sectionId) {
+    const target = document.getElementById(sectionId);
+    const header = document.querySelector('.site-header');
+
+    if (!target) {
+      return;
+    }
+
+    const headerHeight = header?.offsetHeight ?? 0;
+    const targetTop = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+    window.scrollTo({
+      top: targetTop,
+      behavior: 'smooth',
+    });
+  }
+
+  function handleMenuClick(event) {
+    event.preventDefault();
+    scrollToSection('menu');
+  }
+
   return (
     <div className={`app-shell view-${viewportType}`}>
-      <Header site={site} isPhone={isPhone} />
+      <Header site={site} isPhone={isPhone} onNavigate={scrollToSection} />
 
       <main>
         <section className="hero" id="home">
           <div className="container hero-content">
-            <p className="eyebrow">Restaurant & Bar</p>
+            <p className="eyebrow">1449 Queen St W, Toronto</p>
             <h1>{site.name}</h1>
-            <p className="tagline">{site.tagline}</p>
             <p className="description">{site.description}</p>
             <div className="actions">
-              <a className="button primary" href="#menu">
+              <a className="button primary" href="#menu" onClick={handleMenuClick}>
                 View Menu
               </a>
               <a className="button" href={site.uberEatsUrl} target="_blank" rel="noreferrer">
