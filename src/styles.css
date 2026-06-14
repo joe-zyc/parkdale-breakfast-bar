@@ -112,6 +112,15 @@ a {
   text-transform: uppercase;
 }
 
+.menu-eyebrow {
+  margin: 0 0 10px;
+  color: rgba(64, 50, 43, 0.97);
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
 h1,
 h2,
 h3,
@@ -193,12 +202,53 @@ h4 {
   margin-bottom: 28px;
 }
 
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.menu-nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid #d8cabb;
+  border-radius: 6px;
+  background: #fffdf9;
+  color: #4a3830;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1;
+  transition:
+    border-color 160ms ease,
+    color 160ms ease,
+    background 160ms ease;
+}
+
+.menu-nav button:hover,
+.menu-nav button:focus-visible,
+.menu-nav button.is-active {
+  border-color: #9b3f20;
+  background: #fff7ef;
+  color: #9b3f20;
+}
+
+.menu-nav button.is-active {
+  box-shadow: inset 0 -3px 0 #9b3f20;
+}
+
 .menu-layout {
   display: grid;
   gap: 28px;
 }
 
 .menu-section {
+  scroll-margin-top: 92px;
   padding-top: 28px;
   border-top: 1px solid #e2d8cd;
 }
@@ -506,7 +556,28 @@ h4 {
     gap: 24px;
   }
 
+  .menu-nav {
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: -6px -12px 28px;
+    overflow-x: auto;
+    padding: 6px 12px 10px;
+    scrollbar-width: none;
+  }
+
+  .menu-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu-nav button {
+    flex: 0 0 auto;
+    min-height: 36px;
+    padding: 0 14px;
+    font-size: 0.9rem;
+  }
+
   .menu-section {
+    scroll-margin-top: 76px;
     padding-top: 24px;
   }
 

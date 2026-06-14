@@ -2,7 +2,6 @@ export default function ContactInfo({ site }) {
   return (
     <div className="contact-grid">
       <div>
-        <p className="eyebrow">Visit</p>
         <h2>Contact & Location</h2>
         <p className="description">{site.address}</p>
         <div className="actions">
