@@ -1,8 +1,21 @@
 import { useEffect, useState } from 'react';
 
+function getImageSrc(image) {
+  if (!image) {
+    return '';
+  }
+
+  if (/^(https?:)?\/\//.test(image) || image.startsWith('data:')) {
+    return image;
+  }
+
+  return `${import.meta.env.BASE_URL}${image.replace(/^\/+/, '')}`;
+}
+
 export default function MenuItem({ item, isPhone }) {
   const [isPhotoExpanded, setIsPhotoExpanded] = useState(false);
   const shouldUsePhoneImageToggle = Boolean(item.image && isPhone);
+  const imageSrc = getImageSrc(item.image);
 
   useEffect(() => {
     if (!isPhone && isPhotoExpanded) {
@@ -34,7 +47,7 @@ export default function MenuItem({ item, isPhone }) {
     >
       {item.image && !shouldUsePhoneImageToggle ? (
         <div className="menu-item-image-frame">
-          <img className="menu-item-image" src={item.image} alt={item.name} loading="lazy" />
+          <img className="menu-item-image" src={imageSrc} alt={item.name} loading="lazy" />
         </div>
       ) : null}
 
@@ -50,7 +63,7 @@ export default function MenuItem({ item, isPhone }) {
         {shouldUsePhoneImageToggle ? (
           <div className={isPhotoExpanded ? 'photo-dropdown is-open' : 'photo-dropdown'}>
             <div className="photo-dropdown-frame">
-              <img src={item.image} alt={item.name} loading="lazy" />
+              <img src={imageSrc} alt={item.name} loading="lazy" />
             </div>
           </div>
         ) : null}
