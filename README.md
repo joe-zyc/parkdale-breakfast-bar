@@ -27,11 +27,11 @@ Menu sections live in the `sections` array. Each section has:
 
 - `id`
 - `title`
-- optional `description`
-- `items`
+- `items` or `subsections`
 
 Each menu item has:
 
+- `id`
 - `name`
 - optional `description`
 - `price`
@@ -44,6 +44,36 @@ Example image path:
 ```
 
 Put menu images in `public/images/menu/`. Items without an `image` still render normally.
+
+## Convert a CSV menu
+
+Use `utils/csv_to_menu_json.py` to generate `src/data/menu.json` from a CSV file.
+
+```bash
+python3 utils/csv_to_menu_json.py
+```
+
+Example CSV:
+
+```bash
+utils/sample_menu_no_section_id.csv
+```
+
+Required CSV columns:
+
+- `section_title`
+- `name`
+- `price`
+
+Optional CSV columns:
+
+- `subsection_title`
+- `subsection_id`
+- `item_id`
+- `description`
+- `image`
+
+If item IDs are omitted, the script creates numeric IDs starting from `1`.
 
 ## Update restaurant information
 

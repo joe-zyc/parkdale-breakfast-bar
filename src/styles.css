@@ -330,7 +330,8 @@ h4 {
 .menu-item {
   position: relative;
   display: flex;
-  gap: 18px;
+  align-items: stretch;
+  gap: 22px;
   min-height: 0;
   overflow: hidden;
   border: 0;
@@ -378,14 +379,24 @@ h4 {
   line-height: 1.48;
 }
 
-.menu-item-image {
-  width: 128px;
-  flex: 0 0 128px;
-  min-height: 116px;
-  margin: 16px 0 18px;
-  border-radius: 8px;
-  object-fit: cover;
+.menu-item-image-frame {
+  width: 132px;
+  height: 96px;
+  flex: 0 0 132px;
+  align-self: center;
+  margin: 14px 0 16px;
+  border-radius: 6px;
   background: #e5ded4;
+  overflow: hidden;
+}
+
+.menu-item-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.18);
 }
 
 .contact-section {
@@ -496,8 +507,8 @@ h4 {
   opacity: 0;
   margin-top: 0;
   overflow: hidden;
-  border-radius: 8px;
-  background: #e5ded4;
+  border-radius: 6px;
+  background: transparent;
   transition:
     grid-template-rows 260ms ease,
     opacity 200ms ease,
@@ -507,15 +518,25 @@ h4 {
 .photo-dropdown.is-open {
   grid-template-rows: 1fr;
   opacity: 1;
-  margin-top: 14px;
+  margin-top: 12px;
+}
+
+.photo-dropdown-frame {
+  min-height: 0;
+  max-height: 170px;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  background: #e5ded4;
+  overflow: hidden;
 }
 
 .photo-dropdown img {
   display: block;
   width: 100%;
-  min-height: 0;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+  transform: scale(1.16);
 }
 
 .view-tablet .menu-items {
@@ -695,6 +716,12 @@ h4 {
     padding-bottom: 18px;
   }
 
+  .view-phone .photo-dropdown {
+    width: min(100%, 320px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .menu-item-header {
     gap: 12px;
     margin-bottom: 5px;
@@ -729,9 +756,10 @@ h4 {
     grid-template-columns: 1fr;
   }
 
-  .menu-item-image {
-    width: 156px;
-    flex-basis: 156px;
+  .menu-item-image-frame {
+    width: 144px;
+    height: 102px;
+    flex-basis: 144px;
   }
 
   .contact-grid {

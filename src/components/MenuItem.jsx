@@ -33,7 +33,9 @@ export default function MenuItem({ item, isPhone }) {
       onKeyDown={shouldUsePhoneImageToggle ? handleKeyDown : undefined}
     >
       {item.image && !shouldUsePhoneImageToggle ? (
-        <img className="menu-item-image" src={item.image} alt={item.name} loading="lazy" />
+        <div className="menu-item-image-frame">
+          <img className="menu-item-image" src={item.image} alt={item.name} loading="lazy" />
+        </div>
       ) : null}
 
       <div className="menu-item-content">
@@ -47,7 +49,9 @@ export default function MenuItem({ item, isPhone }) {
 
         {shouldUsePhoneImageToggle ? (
           <div className={isPhotoExpanded ? 'photo-dropdown is-open' : 'photo-dropdown'}>
-            <img src={item.image} alt={item.name} loading="lazy" />
+            <div className="photo-dropdown-frame">
+              <img src={item.image} alt={item.name} loading="lazy" />
+            </div>
           </div>
         ) : null}
       </div>
