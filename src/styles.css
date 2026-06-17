@@ -380,9 +380,9 @@ h4 {
 }
 
 .menu-item-image-frame {
-  width: 132px;
-  height: 96px;
-  flex: 0 0 132px;
+  width: 140px;
+  height: 92px;
+  flex: 0 0 140px;
   align-self: center;
   margin: 14px 0 16px;
   border-radius: 6px;
@@ -396,7 +396,8 @@ h4 {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transform: scale(1.18);
+  transform: scale(1.07);
+  transform-origin: center;
 }
 
 .contact-section {
@@ -468,26 +469,11 @@ h4 {
 }
 
 .view-phone .menu-item.with-image {
-  flex-direction: row;
-  gap: 0;
-  cursor: pointer;
-  transition:
-    border-color 180ms ease,
-    box-shadow 180ms ease;
+  gap: 16px;
 }
 
 .view-phone .menu-item.with-image .menu-item-header {
   align-items: baseline;
-}
-
-.view-phone .menu-item.with-image:focus-visible {
-  outline: 3px solid rgba(155, 63, 32, 0.22);
-  outline-offset: 3px;
-}
-
-.view-phone .menu-item.with-image[aria-expanded='true'] {
-  border-bottom-color: #caa58f;
-  box-shadow: none;
 }
 
 .view-phone .menu-item.with-image::before {
@@ -499,44 +485,6 @@ h4 {
   border-radius: 999px;
   background: #9b3f20;
   content: "";
-}
-
-.photo-dropdown {
-  display: grid;
-  grid-template-rows: 0fr;
-  opacity: 0;
-  margin-top: 0;
-  overflow: hidden;
-  border-radius: 6px;
-  background: transparent;
-  transition:
-    grid-template-rows 260ms ease,
-    opacity 200ms ease,
-    margin-top 260ms ease;
-}
-
-.photo-dropdown.is-open {
-  grid-template-rows: 1fr;
-  opacity: 1;
-  margin-top: 12px;
-}
-
-.photo-dropdown-frame {
-  min-height: 0;
-  max-height: 170px;
-  aspect-ratio: 16 / 9;
-  border-radius: 6px;
-  background: #e5ded4;
-  overflow: hidden;
-}
-
-.photo-dropdown img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transform: scale(1.16);
 }
 
 .view-tablet .menu-items {
@@ -716,10 +664,25 @@ h4 {
     padding-bottom: 18px;
   }
 
-  .view-phone .photo-dropdown {
-    width: min(100%, 320px);
-    margin-right: auto;
-    margin-left: auto;
+  .view-phone .menu-item.with-image {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .view-phone .menu-item.with-image .menu-item-content {
+    order: 1;
+  }
+
+  .view-phone .menu-item.with-image .menu-item-image-frame {
+    order: 2;
+    width: min(92%, 300px);
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto 16px;
+  }
+
+  .view-phone .menu-item.with-image .menu-item-image {
+    transform: scale(1.04);
   }
 
   .menu-item-header {
@@ -757,9 +720,9 @@ h4 {
   }
 
   .menu-item-image-frame {
-    width: 144px;
-    height: 102px;
-    flex-basis: 144px;
+    width: 150px;
+    height: 98px;
+    flex-basis: 150px;
   }
 
   .contact-grid {

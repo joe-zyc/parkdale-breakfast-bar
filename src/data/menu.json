@@ -253,7 +253,7 @@
               "name": "Tandoori Chicken Wings",
               "price": "$19.95",
               "id": 7,
-              "description": "Tandoori seasoned and marinated chicken wings deep fries"
+              "description": "Tandoori seasoned and marinated chicken wings deep fried"
             },
             {
               "name": "Jerk Chicken Wings",
@@ -274,9 +274,118 @@
           "title": "Beer",
           "items": [
             {
-              "name": "Beer Place Holder",
-              "price": "$6",
+              "name": "Budweiser",
+              "price": "$5.50",
+              "id": 106
+            },
+            {
+              "name": "Molson Canadian",
+              "price": "$5.50",
+              "id": 107
+            },
+            {
+              "name": "Molson Export",
+              "price": "$5.50",
+              "id": 108
+            },
+            {
+              "name": "Labatt Blue",
+              "price": "$5.50",
+              "id": 109
+            },
+            {
+              "name": "Molson Dry",
+              "price": "$5.50",
+              "id": 110
+            },
+            {
+              "name": "Coors Light",
+              "price": "$5.50",
+              "id": 111
+            },
+            {
+              "name": "Laker Ice",
+              "price": "$5.50",
+              "id": 112
+            },
+            {
+              "name": "Moosehead",
+              "price": "$6.00",
+              "id": 113
+            },
+            {
+              "name": "Heineken",
+              "price": "$7.00",
+              "id": 114
+            },
+            {
+              "name": "Stella Artois",
+              "price": "$7.00",
+              "id": 115
+            },
+            {
+              "name": "Corona",
+              "price": "$7.00",
+              "id": 116
+            },
+            {
+              "name": "Guinness",
+              "price": "$7.00",
+              "id": 117
+            }
+          ]
+        },
+        {
+          "id": "spirits",
+          "title": "Spirits",
+          "items": [
+            {
+              "name": "Mixed Drink",
+              "price": "$6.50",
+              "id": 118,
+              "description": "1 oz"
+            },
+            {
+              "name": "Shot",
+              "price": "$5.50",
+              "id": 119,
+              "description": "1 oz"
+            }
+          ]
+        },
+        {
+          "id": "non-alcoholic",
+          "title": "Non-alcoholic",
+          "items": [
+            {
+              "name": "Hot Coffee",
+              "price": "$2.00",
               "id": 100
+            },
+            {
+              "name": "Hot Tea",
+              "price": "$1.50",
+              "id": 101
+            },
+            {
+              "name": "Soft Drink",
+              "price": "$2.50",
+              "id": 102
+            },
+            {
+              "name": "Apple Juice",
+              "price": "$2.50",
+              "id": 103
+            },
+            {
+              "name": "Orange Juice",
+              "price": "$2.50",
+              "id": 104
+            },
+            {
+              "name": "Bottled Water",
+              "price": "$1.00",
+              "id": 105
             }
           ]
         }
