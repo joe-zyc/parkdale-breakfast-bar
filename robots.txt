@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joe-zyc.github.io/parkdale-breakfast-bar/sitemap.xml
