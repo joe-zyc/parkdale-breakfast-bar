@@ -6,44 +6,36 @@ Specials,Special Combination Dishes,29,Fried Rice with Fish And Shrimp,"Egg frie
 Specials,Special Combination Dishes,30,Chow Mein with Fish And Shrimp,"Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery",$32.95,
 Specials,Chef Special Dishes,31,Chef Special Poutine,"Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream",$17.95,
 Specials,Chef Special Dishes,32,Fish and Bread Sandwich,"Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce",$15.95,
-Mains,Platter,9,BBQ Chicken Fried Rice,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$13.95,
+Mains,Platter,9,BBQ Chicken Fried Rice,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$13.95,\images\menu\9.png
 Mains,Platter,10,BBQ Pork Fried Rice,"Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery",$15.00,
-Mains,Platter,11,Shrimp Fried Rice,"16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",$18.95,
-Mains,Platter,12,BBQ Chicken Chow Mein,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$16.50,
+Mains,Platter,11,Shrimp Fried Rice,"16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",$18.95,\images\menu\11.png
+Mains,Platter,12,BBQ Chicken Chow Mein,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$16.50,\images\menu\12.png
 Mains,Platter,13,BBQ Pork Chow Mein,"Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery",$17.50,
-Mains,Platter,14,Shrimp Chow Mein,"16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",$19.95,
+Mains,Platter,14,Shrimp Chow Mein,"16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",$19.95,\images\menu\14.png
 Mains,Platter,15,Fried Chicken Leg Add To Any Dishes Above,"Season & Marinated Chicken Leg: Regular, Tandoori or Jerk",$7.50,
-Mains,Curry Dishes,16,Chicken Curry with Rice,Guyanese style chicken curry with potato & white steam rice,$13.95,
+Mains,Curry Dishes,16,Chicken Curry with Rice,Guyanese style chicken curry with potato & white steam rice,$13.95,\images\menu\16.png
 Mains,Curry Dishes,17,Fish Curry with Rice,Guyanese style Basa fried fish curry with green mango & okra,$16.50,
 Mains,Curry Dishes,18,Chicken Curry with Roti,Guyanese style chicken curry with potato,$16.50,
 Mains,Curry Dishes,19,Fish Curry with Roti,Guyanese style Basa fried fish curry with green mango & okra,$17.50,
-Mains,Fish And Chips,20,Basa Fish and Chips Large,Special house made season & batter with one half side of fish deep fried,$18.95,
+Mains,Fish And Chips,20,Basa Fish and Chips Large,Special house made season & batter with one half side of fish deep fried,$18.95,\images\menu\20.png
 Mains,Hamburger / Sandwich,22,Hamburger ( Cheese Burger ),"House made hamburger with lettuce, tomato, onion & special house made sauce",$8.50,
-Mains,Hamburger / Sandwich,23,Hamburger with Fries ( Cheese burger ),"House made hamburger with lettuce, tomato, onion & special house made sauce & fries",$12.50,
+Mains,Hamburger / Sandwich,23,Hamburger with Fries ( Cheese burger ),"House made hamburger with lettuce, tomato, onion & special house made sauce & fries",$12.50,\images\menu\23.png
 Mains,Combination dishes,25,BBQ Chicken Fried Rice with Chicken Leg,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$18.95,
 Mains,Combination dishes,26,BBQ Chicken Chow Mein with Chicken Leg,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$21.50,
 Snacks,Fried,1,French Fries,Crispy seasoned French fries,$7.50,
 Snacks,Fried,2,Potato Wedges,Spicy Crispy seasoned potato wedges,$8.75,
 Snacks,Fried,3,Onion Rings,Crispy breaded and seasoned onion rings,$9.95,
-Snacks,Fried,4,Large Poutine,Crispy seasoned French fries with cheese and gravy,$12.50,
+Snacks,Fried,4,Large Poutine,Crispy seasoned French fries with cheese and gravy,$12.50,\images\menu\4.png
 Snacks,Fried,5,Calamari,Crispy breaded squid rings,$18.95,
-Snacks,Wings,6,Regular chicken Wings with Sauce,"Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",$19.95,
-Snacks,Wings,7,Tandoori Chicken Wings,Tandoori seasoned and marinated chicken wings deep fried,$19.95,
+Snacks,Wings,6,Regular chicken Wings with Sauce,"Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",$19.95,\images\menu\6.png
+Snacks,Wings,7,Tandoori Chicken Wings,Tandoori seasoned and marinated chicken wings deep fried,$19.95,\images\menu\7.png
 Snacks,Wings,8,Jerk Chicken Wings,Jerk seasoned & marinated chicken wings deep fried,$19.95,
-Drinks,Beer,106,Budweiser,,$5.50,
-Drinks,Beer,107,Molson Canadian,,$5.50,
-Drinks,Beer,108,Molson Export,,$5.50,
-Drinks,Beer,109,Labatt Blue,,$5.50,
-Drinks,Beer,110,Molson Dry,,$5.50,
-Drinks,Beer,111,Coors Light,,$5.50,
-Drinks,Beer,112,Laker Ice,,$5.50,
-Drinks,Beer,113,Moosehead,,$6.00,
-Drinks,Beer,114,Heineken,,$7.00,
-Drinks,Beer,115,Stella Artois,,$7.00,
-Drinks,Beer,116,Corona,,$7.00,
-Drinks,Beer,117,Guinness,,$7.00,
-Drinks,Spirits,118,Mixed Drink,1 oz,$6.50,
-Drinks,Spirits,119,Shot,1 oz,$5.50,
+Drinks,Beer,106,Budweiser/Blue/Coors Light/Canadian/Export/Dry,,$5.50,\images\menu\106.png
+Drinks,Beer,113,Moosehead,,$6.00,\images\menu\113.png
+Drinks,Beer,116,Corona/Heineken/Stella Artois/Guinness/Dragon Stout,,$7.00,\images\menu\116.png
+Drinks,Spirits,119,Shot 1oz ,Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey,$6.00,\images\menu\119.png
+Drinks,Spirits,120,Shot 1oz ,Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy,$6.00,\images\menu\120.png
+Drinks,Spirits,118,Mixed Drink 1oz ,,$6.50,
 Drinks,Non-alcoholic,100,Hot Coffee,,$2.00,
 Drinks,Non-alcoholic,101,Hot Tea,,$1.50,
 Drinks,Non-alcoholic,102,Soft Drink,,$2.50,

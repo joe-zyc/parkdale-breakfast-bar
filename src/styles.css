@@ -324,14 +324,15 @@ h4 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 28px;
-  row-gap: 0;
+  row-gap: 12px;
 }
 
 .menu-item {
   position: relative;
   display: flex;
-  align-items: stretch;
-  gap: 22px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 14px;
   min-height: 0;
   overflow: hidden;
   border: 0;
@@ -339,19 +340,20 @@ h4 {
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+  padding: 12px 0;
 }
 
 .menu-item-content {
   width: 100%;
-  padding: 16px 0 18px;
+  padding: 2px 0;
 }
 
 .menu-item-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 6px;
+  gap: 10px;
+  margin-bottom: 2px;
 }
 
 .menu-item-header h4 {
@@ -380,13 +382,13 @@ h4 {
 }
 
 .menu-item-image-frame {
-  width: 140px;
-  height: 92px;
-  flex: 0 0 140px;
-  align-self: center;
-  margin: 14px 0 16px;
-  border-radius: 6px;
-  background: #e5ded4;
+  width: 150px;
+  height: 80px;
+  flex: 0 0 150px;
+  align-self: flex-start;
+  margin: 0;
+  border-radius: 8px;
+  background: transparent;
   overflow: hidden;
 }
 
@@ -394,9 +396,8 @@ h4 {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-  transform: scale(1.07);
   transform-origin: center;
 }
 

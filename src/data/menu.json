@@ -79,7 +79,8 @@
               "name": "BBQ Chicken Fried Rice",
               "price": "$13.95",
               "id": 9,
-              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
+              "image": "/images/menu/9.png"
             },
             {
               "name": "BBQ Pork Fried Rice",
@@ -91,13 +92,15 @@
               "name": "Shrimp Fried Rice",
               "price": "$18.95",
               "id": 11,
-              "description": "16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery"
+              "description": "16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",
+              "image": "/images/menu/11.png"
             },
             {
               "name": "BBQ Chicken Chow Mein",
               "price": "$16.50",
               "id": 12,
-              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
+              "image": "/images/menu/12.png"
             },
             {
               "name": "BBQ Pork Chow Mein",
@@ -109,7 +112,8 @@
               "name": "Shrimp Chow Mein",
               "price": "$19.95",
               "id": 14,
-              "description": "16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery"
+              "description": "16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",
+              "image": "/images/menu/14.png"
             },
             {
               "name": "Fried Chicken Leg Add To Any Dishes Above",
@@ -127,7 +131,8 @@
               "name": "Chicken Curry with Rice",
               "price": "$13.95",
               "id": 16,
-              "description": "Guyanese style chicken curry with potato & white steam rice"
+              "description": "Guyanese style chicken curry with potato & white steam rice",
+              "image": "/images/menu/16.png"
             },
             {
               "name": "Fish Curry with Rice",
@@ -157,7 +162,8 @@
               "name": "Basa Fish and Chips Large",
               "price": "$18.95",
               "id": 20,
-              "description": "Special house made season & batter with one half side of fish deep fried"
+              "description": "Special house made season & batter with one half side of fish deep fried",
+              "image": "/images/menu/20.png"
             }
           ]
         },
@@ -175,7 +181,8 @@
               "name": "Hamburger with Fries ( Cheese burger )",
               "price": "$12.50",
               "id": 23,
-              "description": "House made hamburger with lettuce, tomato, onion & special house made sauce & fries"
+              "description": "House made hamburger with lettuce, tomato, onion & special house made sauce & fries",
+              "image": "/images/menu/23.png"
             }
           ]
         },
@@ -229,7 +236,8 @@
               "name": "Large Poutine",
               "price": "$12.50",
               "id": 4,
-              "description": "Crispy seasoned French fries with cheese and gravy"
+              "description": "Crispy seasoned French fries with cheese and gravy",
+              "image": "/images/menu/4.png"
             },
             {
               "name": "Calamari",
@@ -247,13 +255,15 @@
               "name": "Regular chicken Wings with Sauce",
               "price": "$19.95",
               "id": 6,
-              "description": "Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )"
+              "description": "Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",
+              "image": "/images/menu/6.png"
             },
             {
               "name": "Tandoori Chicken Wings",
               "price": "$19.95",
               "id": 7,
-              "description": "Tandoori seasoned and marinated chicken wings deep fried"
+              "description": "Tandoori seasoned and marinated chicken wings deep fried",
+              "image": "/images/menu/7.png"
             },
             {
               "name": "Jerk Chicken Wings",
@@ -274,64 +284,22 @@
           "title": "Beer",
           "items": [
             {
-              "name": "Budweiser",
+              "name": "Budweiser/Blue/Coors Light/Canadian/Export/Dry",
               "price": "$5.50",
-              "id": 106
-            },
-            {
-              "name": "Molson Canadian",
-              "price": "$5.50",
-              "id": 107
-            },
-            {
-              "name": "Molson Export",
-              "price": "$5.50",
-              "id": 108
-            },
-            {
-              "name": "Labatt Blue",
-              "price": "$5.50",
-              "id": 109
-            },
-            {
-              "name": "Molson Dry",
-              "price": "$5.50",
-              "id": 110
-            },
-            {
-              "name": "Coors Light",
-              "price": "$5.50",
-              "id": 111
-            },
-            {
-              "name": "Laker Ice",
-              "price": "$5.50",
-              "id": 112
+              "id": 106,
+              "image": "/images/menu/106.png"
             },
             {
               "name": "Moosehead",
               "price": "$6.00",
-              "id": 113
+              "id": 113,
+              "image": "/images/menu/113.png"
             },
             {
-              "name": "Heineken",
+              "name": "Corona/Heineken/Stella Artois/Guinness/Dragon Stout",
               "price": "$7.00",
-              "id": 114
-            },
-            {
-              "name": "Stella Artois",
-              "price": "$7.00",
-              "id": 115
-            },
-            {
-              "name": "Corona",
-              "price": "$7.00",
-              "id": 116
-            },
-            {
-              "name": "Guinness",
-              "price": "$7.00",
-              "id": 117
+              "id": 116,
+              "image": "/images/menu/116.png"
             }
           ]
         },
@@ -340,16 +308,23 @@
           "title": "Spirits",
           "items": [
             {
-              "name": "Mixed Drink",
-              "price": "$6.50",
-              "id": 118,
-              "description": "1 oz"
+              "name": "Shot 1oz",
+              "price": "$6.00",
+              "id": 119,
+              "description": "Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacard\u00ed White Rum / Jameson Irish Whiskey",
+              "image": "/images/menu/119.png"
             },
             {
-              "name": "Shot",
-              "price": "$5.50",
-              "id": 119,
-              "description": "1 oz"
+              "name": "Shot 1oz",
+              "price": "$6.00",
+              "id": 120,
+              "description": "Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila A\u00f1ejo / St-R\u00e9my VSOP Brandy",
+              "image": "/images/menu/120.png"
+            },
+            {
+              "name": "Mixed Drink 1oz",
+              "price": "$6.50",
+              "id": 118
             }
           ]
         },
