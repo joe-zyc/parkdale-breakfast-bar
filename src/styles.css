@@ -588,10 +588,31 @@ h4 {
   .menu-items,
   .contact-grid {
     grid-template-columns: 1fr;
+    row-gap: 0;
   }
 
-  .menu-layout {
-    gap: 22px;
+  .menu-item {
+    gap: 8px;
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 6px;
+  }
+
+  .menu-item-header {
+    margin-bottom: 0;
+  }
+
+  .menu-item-content {
+    padding: 0;
+  }
+
+  .menu-item p {
+    font-size: 0.88rem;
+    line-height: 1.35;
+  }
+
+  .menu-subsections {
+    gap: 16px;
   }
 
   .menu-nav {
