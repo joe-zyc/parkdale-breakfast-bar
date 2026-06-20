@@ -10,7 +10,7 @@
           "items": [
             {
               "name": "Parkdale Breakfast House Special Breakfast",
-              "price": "$11.50",
+              "price": "$8.95",
               "id": 24,
               "description": "2 eggs, 2 bacon, butter toasted bread, 1 fast fry steak and potato wedges",
               "image": "/images/menu/24.png"
@@ -23,25 +23,25 @@
           "items": [
             {
               "name": "Fried Rice with shrimp, BBQ Chicken and BBQ Pork",
-              "price": "$23.95",
+              "price": "$16.95",
               "id": 27,
               "description": "Chinese BBQ chicken, pork & shrimp with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
             },
             {
               "name": "Chow Mein with Shrimp, BBQ Chicken and BBQ Pork",
-              "price": "$25.50",
+              "price": "$18.95",
               "id": 28,
               "description": "Chinese bbq chicken, pork & shrimp with 4 colour sweet peppers, bok choy, cabbage, carrots & celery"
             },
             {
               "name": "Fried Rice with Fish And Shrimp",
-              "price": "$31.50",
+              "price": "$18.00",
               "id": 29,
               "description": "Egg fried rice with 4 colour sweet pepers, bok choy, cabbage, carrots & celery"
             },
             {
               "name": "Chow Mein with Fish And Shrimp",
-              "price": "$32.95",
+              "price": "$20.00",
               "id": 30,
               "description": "Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery"
             }
@@ -53,13 +53,13 @@
           "items": [
             {
               "name": "Chef Special Poutine",
-              "price": "$17.95",
+              "price": "$13.95",
               "id": 31,
               "description": "Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream"
             },
             {
               "name": "Fish and Bread Sandwich",
-              "price": "$15.95",
+              "price": "$11.95",
               "id": 32,
               "description": "Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce"
             }
@@ -77,47 +77,47 @@
           "items": [
             {
               "name": "BBQ Chicken Fried Rice",
-              "price": "$13.95",
+              "price": "$10.95",
               "id": 9,
               "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
               "image": "/images/menu/9.png"
             },
             {
               "name": "BBQ Pork Fried Rice",
-              "price": "$15.00",
+              "price": "$11.95",
               "id": 10,
               "description": "Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery"
             },
             {
               "name": "Shrimp Fried Rice",
-              "price": "$18.95",
+              "price": "$14.95",
               "id": 11,
               "description": "16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",
               "image": "/images/menu/11.png"
             },
             {
               "name": "BBQ Chicken Chow Mein",
-              "price": "$16.50",
+              "price": "$12.95",
               "id": 12,
               "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
               "image": "/images/menu/12.png"
             },
             {
               "name": "BBQ Pork Chow Mein",
-              "price": "$17.50",
+              "price": "$13.95",
               "id": 13,
               "description": "Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery"
             },
             {
               "name": "Shrimp Chow Mein",
-              "price": "$19.95",
+              "price": "$15.95",
               "id": 14,
               "description": "16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",
               "image": "/images/menu/14.png"
             },
             {
               "name": "Fried Chicken Leg Add To Any Dishes Above",
-              "price": "$7.50",
+              "price": "$4.00",
               "id": 15,
               "description": "Season & Marinated Chicken Leg: Regular, Tandoori or Jerk"
             }
@@ -129,26 +129,26 @@
           "items": [
             {
               "name": "Chicken Curry with Rice",
-              "price": "$13.95",
+              "price": "$10.95",
               "id": 16,
               "description": "Guyanese style chicken curry with potato & white steam rice",
               "image": "/images/menu/16.png"
             },
             {
               "name": "Fish Curry with Rice",
-              "price": "$16.50",
+              "price": "$12.95",
               "id": 17,
               "description": "Guyanese style Basa fried fish curry with green mango & okra"
             },
             {
               "name": "Chicken Curry with Roti",
-              "price": "$16.50",
+              "price": "$12.95",
               "id": 18,
               "description": "Guyanese style chicken curry with potato"
             },
             {
               "name": "Fish Curry with Roti",
-              "price": "$17.50",
+              "price": "$14.95",
               "id": 19,
               "description": "Guyanese style Basa fried fish curry with green mango & okra"
             }
@@ -160,7 +160,7 @@
           "items": [
             {
               "name": "Basa Fish and Chips Large",
-              "price": "$18.95",
+              "price": "$14.95",
               "id": 20,
               "description": "Special house made season & batter with one half side of fish deep fried",
               "image": "/images/menu/20.png"
@@ -173,13 +173,13 @@
           "items": [
             {
               "name": "Hamburger ( Cheese Burger )",
-              "price": "$8.50",
+              "price": "$6.95",
               "id": 22,
               "description": "House made hamburger with lettuce, tomato, onion & special house made sauce"
             },
             {
               "name": "Hamburger with Fries ( Cheese burger )",
-              "price": "$12.50",
+              "price": "$9.95",
               "id": 23,
               "description": "House made hamburger with lettuce, tomato, onion & special house made sauce & fries",
               "image": "/images/menu/23.png"
@@ -192,13 +192,13 @@
           "items": [
             {
               "name": "BBQ Chicken Fried Rice with Chicken Leg",
-              "price": "$18.95",
+              "price": "$14.95",
               "id": 25,
               "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
             },
             {
               "name": "BBQ Chicken Chow Mein with Chicken Leg",
-              "price": "$21.50",
+              "price": "$16.95",
               "id": 26,
               "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
             }
@@ -216,32 +216,32 @@
           "items": [
             {
               "name": "French Fries",
-              "price": "$7.50",
+              "price": "$5.95",
               "id": 1,
               "description": "Crispy seasoned French fries"
             },
             {
               "name": "Potato Wedges",
-              "price": "$8.75",
+              "price": "$6.95",
               "id": 2,
               "description": "Spicy Crispy seasoned potato wedges"
             },
             {
               "name": "Onion Rings",
-              "price": "$9.95",
+              "price": "$7.95",
               "id": 3,
               "description": "Crispy breaded and seasoned onion rings"
             },
             {
               "name": "Large Poutine",
-              "price": "$12.50",
+              "price": "$9.95",
               "id": 4,
               "description": "Crispy seasoned French fries with cheese and gravy",
               "image": "/images/menu/4.png"
             },
             {
               "name": "Calamari",
-              "price": "$18.95",
+              "price": "$15.95",
               "id": 5,
               "description": "Crispy breaded squid rings"
             }
@@ -253,21 +253,21 @@
           "items": [
             {
               "name": "Regular chicken Wings with Sauce",
-              "price": "$19.95",
+              "price": "$15.95",
               "id": 6,
               "description": "Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",
               "image": "/images/menu/6.png"
             },
             {
               "name": "Tandoori Chicken Wings",
-              "price": "$19.95",
+              "price": "$15.95",
               "id": 7,
               "description": "Tandoori seasoned and marinated chicken wings deep fried",
               "image": "/images/menu/7.png"
             },
             {
               "name": "Jerk Chicken Wings",
-              "price": "$19.95",
+              "price": "$15.95",
               "id": 8,
               "description": "Jerk seasoned & marinated chicken wings deep fried"
             }
@@ -323,7 +323,7 @@
             },
             {
               "name": "Mixed Drink 1oz",
-              "price": "$6.50",
+              "price": "$7.00",
               "id": 118
             }
           ]
@@ -334,12 +334,12 @@
           "items": [
             {
               "name": "Hot Coffee",
-              "price": "$2.00",
+              "price": "$2.50",
               "id": 100
             },
             {
               "name": "Hot Tea",
-              "price": "$1.50",
+              "price": "$2.50",
               "id": 101
             },
             {
@@ -359,7 +359,7 @@
             },
             {
               "name": "Bottled Water",
-              "price": "$1.00",
+              "price": "$1.50",
               "id": 105
             }
           ]
