@@ -285,19 +285,19 @@
           "items": [
             {
               "name": "Budweiser/Blue/Coors Light/Canadian/Export/Dry",
-              "price": "$5.50",
+              "price": "$5.50+TAX",
               "id": 106,
               "image": "/images/menu/106.webp"
             },
             {
               "name": "Moosehead",
-              "price": "$6.00",
+              "price": "$6.00+TAX",
               "id": 113,
               "image": "/images/menu/113.webp"
             },
             {
               "name": "Corona/Heineken/Stella Artois/Guinness/Dragon Stout",
-              "price": "$7.00",
+              "price": "$7.00+TAX",
               "id": 116,
               "image": "/images/menu/116.webp"
             }

@@ -30,9 +30,9 @@ Snacks,Fried,5,Calamari,Crispy breaded squid rings,$15.95,
 Snacks,Wings,6,Regular chicken Wings with Sauce,"Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",$15.95,\images\menu\6.webp
 Snacks,Wings,7,Tandoori Chicken Wings,Tandoori seasoned and marinated chicken wings deep fried,$15.95,\images\menu\7.webp
 Snacks,Wings,8,Jerk Chicken Wings,Jerk seasoned & marinated chicken wings deep fried,$15.95,
-Drinks,Beer,106,Budweiser/Blue/Coors Light/Canadian/Export/Dry,,$5.50,\images\menu\106.webp
-Drinks,Beer,113,Moosehead,,$6.00,\images\menu\113.webp
-Drinks,Beer,116,Corona/Heineken/Stella Artois/Guinness/Dragon Stout,,$7.00,\images\menu\116.webp
+Drinks,Beer,106,Budweiser/Blue/Coors Light/Canadian/Export/Dry,,$5.50+TAX,\images\menu\106.webp
+Drinks,Beer,113,Moosehead,,$6.00+TAX,\images\menu\113.webp
+Drinks,Beer,116,Corona/Heineken/Stella Artois/Guinness/Dragon Stout,,$7.00+TAX,\images\menu\116.webp
 Drinks,Spirits,119,Shot 1oz,Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey,$6.00,\images\menu\119.webp
 Drinks,Spirits,120,Shot 1oz,Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy,$6.00,\images\menu\120.webp
 Drinks,Spirits,118,Mixed Drink 1oz,,$7.00,
