@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import site from './data/site.json';
 import menu from './data/menu.json';
 import Header from './components/Header.jsx';
@@ -7,12 +7,26 @@ import MenuSection from './components/MenuSection.jsx';
 import ContactInfo from './components/ContactInfo.jsx';
 import useViewportType from './hooks/useViewportType.js';
 
+const MAIN_SECTION_IDS = new Set(['home', 'menu', 'contact']);
+const MENU_SECTION_IDS = new Set(menu.sections.map((section) => section.id));
+
+function getHashId() {
+  const hash = window.location.hash.replace(/^#/, '');
+
+  try {
+    return decodeURIComponent(hash);
+  } catch {
+    return hash;
+  }
+}
+
 export default function App() {
   const { viewportType, isPhone } = useViewportType();
   const [activeSectionId, setActiveSectionId] = useState(menu.sections[0]?.id ?? '');
+  const scrollFrameRef = useRef(null);
   const activeSection = menu.sections.find((section) => section.id === activeSectionId) ?? menu.sections[0];
 
-  function scrollToSection(sectionId) {
+  const scrollToSection = useCallback((sectionId, behavior = 'smooth') => {
     const target = document.getElementById(sectionId);
     const header = document.querySelector('.site-header');
 
@@ -25,18 +39,85 @@ export default function App() {
 
     window.scrollTo({
       top: targetTop,
-      behavior: 'smooth',
+      behavior,
     });
-  }
+  }, []);
+
+  const scheduleScroll = useCallback(
+    (sectionId, behavior) => {
+      if (scrollFrameRef.current !== null) {
+        window.cancelAnimationFrame(scrollFrameRef.current);
+      }
+
+      scrollFrameRef.current = window.requestAnimationFrame(() => {
+        scrollFrameRef.current = window.requestAnimationFrame(() => {
+          scrollToSection(sectionId, behavior);
+          scrollFrameRef.current = null;
+        });
+      });
+    },
+    [scrollToSection],
+  );
+
+  const applyHash = useCallback(
+    (hashId, behavior) => {
+      if (MENU_SECTION_IDS.has(hashId)) {
+        setActiveSectionId(hashId);
+        scheduleScroll('menu', behavior);
+        return true;
+      }
+
+      if (MAIN_SECTION_IDS.has(hashId)) {
+        scheduleScroll(hashId, behavior);
+        return true;
+      }
+
+      return false;
+    },
+    [scheduleScroll],
+  );
+
+  const navigateToHash = useCallback(
+    (hashId) => {
+      if (!MAIN_SECTION_IDS.has(hashId) && !MENU_SECTION_IDS.has(hashId)) {
+        return;
+      }
+
+      const nextHash = `#${hashId}`;
+      if (window.location.hash !== nextHash) {
+        window.history.pushState(null, '', nextHash);
+      }
+      applyHash(hashId, 'smooth');
+    },
+    [applyHash],
+  );
+
+  useEffect(() => {
+    function handleHistoryNavigation() {
+      applyHash(getHashId(), 'auto');
+    }
+
+    handleHistoryNavigation();
+    window.addEventListener('hashchange', handleHistoryNavigation);
+    window.addEventListener('popstate', handleHistoryNavigation);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHistoryNavigation);
+      window.removeEventListener('popstate', handleHistoryNavigation);
+      if (scrollFrameRef.current !== null) {
+        window.cancelAnimationFrame(scrollFrameRef.current);
+      }
+    };
+  }, [applyHash]);
 
   function handleMenuClick(event) {
     event.preventDefault();
-    scrollToSection('menu');
+    navigateToHash('menu');
   }
 
   return (
     <div className={`app-shell view-${viewportType}`}>
-      <Header site={site} isPhone={isPhone} onNavigate={scrollToSection} />
+      <Header site={site} isPhone={isPhone} onNavigate={navigateToHash} />
 
       <main>
         <section className="hero" id="home">
@@ -63,7 +144,7 @@ export default function App() {
               <p className="menu-eyebrow">Menu</p>
             </div>
 
-            <MenuNav sections={menu.sections} activeSectionId={activeSection?.id} onSelectSection={setActiveSectionId} />
+            <MenuNav sections={menu.sections} activeSectionId={activeSection?.id} onSelectSection={navigateToHash} />
 
             <div className="menu-layout">
               {activeSection ? <MenuSection key={activeSection.id} section={activeSection} isPhone={isPhone} /> : null}

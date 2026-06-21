@@ -1,16 +1,34 @@
 {
   "name": "Parkdale Breakfast Bar & Grill",
   "description": "A relaxed Queen Street West bar serving breakfast favourites, comfort food, and drinks. With late weekend hours, a great spot for brunch, a casual meal, or an evening out.",
+  "metaDescription": "Parkdale Breakfast Bar & Grill on Queen Street West in Toronto serves breakfast favourites, Guyanese dishes, comfort food, beer, and cocktails.",
+  "canonicalUrl": "https://joe-zyc.github.io/parkdale-breakfast-bar/",
+  "language": "en-CA",
+  "locale": "en_CA",
+  "socialImage": "/images/menu/24.webp",
+  "servesCuisine": ["Breakfast", "Guyanese", "Canadian", "Comfort Food"],
   "address": "1449 Queen St W, Toronto",
+  "addressDetails": {
+    "streetAddress": "1449 Queen St W",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
   "phone": "+1 437-855-5571",
   "hours": [
     {
       "days": "Monday - Thursday",
-      "time": "11:00 AM - 11:00 PM"
+      "time": "11:00 AM - 11:00 PM",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "11:00",
+      "closes": "23:00"
     },
     {
       "days": "Friday - Sunday",
-      "time": "11:00 AM - 2:00 AM"
+      "time": "11:00 AM - 2:00 AM",
+      "dayOfWeek": ["Friday", "Saturday", "Sunday"],
+      "opens": "11:00",
+      "closes": "02:00"
     }
   ],
   "mapUrl": "https://maps.app.goo.gl/Li8dRHt27GxLRdbWA",
