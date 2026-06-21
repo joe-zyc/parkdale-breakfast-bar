@@ -1,18 +1,104 @@
 # Parkdale Breakfast Bar & Grill
 
-> A relaxed restaurant and bar serving breakfast favourites, Guyanese-inspired dishes, comfort food, beer, and drinks on Queen Street West in Toronto.
+> A relaxed Queen Street West bar serving breakfast favourites, comfort food, and drinks. With late weekend hours, a great spot for brunch, a casual meal, or an evening out.
 
-## Official Website
+## Official Resources
 
-- [Parkdale Breakfast Bar & Grill](https://joe-zyc.github.io/parkdale-breakfast-bar/): Business information, current menu, prices, hours, and contact details.
-- [Menu](https://joe-zyc.github.io/parkdale-breakfast-bar/#menu): Breakfast, specials, fried rice, chow mein, curry, fish and chips, burgers, snacks, wings, beer, spirits, and non-alcoholic drinks.
-
-## Business Information
-
-- Address: 1449 Queen St W, Toronto, Ontario, Canada
-- Phone: +1 416-901-1858
-- Hours: Monday-Thursday 11:00 AM-11:00 PM; Friday-Sunday 11:00 AM-2:00 AM
+- [Official website](https://joe-zyc.github.io/parkdale-breakfast-bar/)
+- [Interactive menu](https://joe-zyc.github.io/parkdale-breakfast-bar/#menu)
+- [Machine-readable menu](https://joe-zyc.github.io/parkdale-breakfast-bar/menu.json)
 - [Map](https://maps.app.goo.gl/Li8dRHt27GxLRdbWA)
 - [Order on Uber Eats](https://www.ubereats.com/ca/store/parkdale-breakfast-bar-%26-grill/lOapfwLNWkarlbVLWBHijA)
 
-Menu items, prices, and hours can change. Treat the official website as the current source of truth.
+## Business Information
+
+- Address: 1449 Queen St W, Toronto
+- Phone: +1 437-855-5571
+- Hours: Monday - Thursday, 11:00 AM - 11:00 PM
+- Hours: Friday - Sunday, 11:00 AM - 2:00 AM
+
+## Menu
+
+### Specials: Breakfast
+
+- Parkdale Breakfast House Special Breakfast: $8.95 — 2 eggs, 2 bacon, butter toasted bread, 1 fast fry steak and potato wedges
+
+### Specials: Special Combination Dishes
+
+- Fried Rice with shrimp, BBQ Chicken and BBQ Pork: $16.95 — Chinese BBQ chicken, pork & shrimp with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
+- Chow Mein with Shrimp, BBQ Chicken and BBQ Pork: $18.95 — Chinese bbq chicken, pork & shrimp with 4 colour sweet peppers, bok choy, cabbage, carrots & celery
+- Fried Rice with Fish And Shrimp: $18.00 — Egg fried rice with 4 colour sweet pepers, bok choy, cabbage, carrots & celery
+- Chow Mein with Fish And Shrimp: $20.00 — Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery
+
+### Specials: Chef Special Dishes
+
+- Chef Special Poutine: $13.95 — Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream
+- Fish and Bread Sandwich: $11.95 — Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce
+
+### Mains: Platter
+
+- BBQ Chicken Fried Rice: $10.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
+- BBQ Pork Fried Rice: $11.95 — Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery
+- Shrimp Fried Rice: $14.95 — 16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery
+- BBQ Chicken Chow Mein: $12.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
+- BBQ Pork Chow Mein: $13.95 — Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery
+- Shrimp Chow Mein: $15.95 — 16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery
+- Fried Chicken Leg Add To Any Dishes Above: $4.00 — Season & Marinated Chicken Leg: Regular, Tandoori or Jerk
+
+### Mains: Curry Dishes
+
+- Chicken Curry with Rice: $10.95 — Guyanese style chicken curry with potato & white steam rice
+- Fish Curry with Rice: $12.95 — Guyanese style Basa fried fish curry with green mango & okra
+- Chicken Curry with Roti: $12.95 — Guyanese style chicken curry with potato
+- Fish Curry with Roti: $14.95 — Guyanese style Basa fried fish curry with green mango & okra
+
+### Mains: Fish And Chips
+
+- Basa Fish and Chips Large: $14.95 — Special house made season & batter with one half side of fish deep fried
+
+### Mains: Hamburger / Sandwich
+
+- Hamburger ( Cheese Burger ): $6.95 — House made hamburger with lettuce, tomato, onion & special house made sauce
+- Hamburger with Fries ( Cheese burger ): $9.95 — House made hamburger with lettuce, tomato, onion & special house made sauce & fries
+
+### Mains: Combination dishes
+
+- BBQ Chicken Fried Rice with Chicken Leg: $14.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
+- BBQ Chicken Chow Mein with Chicken Leg: $16.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
+
+### Snacks: Fried
+
+- French Fries: $5.95 — Crispy seasoned French fries
+- Potato Wedges: $6.95 — Spicy Crispy seasoned potato wedges
+- Onion Rings: $7.95 — Crispy breaded and seasoned onion rings
+- Large Poutine: $9.95 — Crispy seasoned French fries with cheese and gravy
+- Calamari: $15.95 — Crispy breaded squid rings
+
+### Snacks: Wings
+
+- Regular chicken Wings with Sauce: $15.95 — Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )
+- Tandoori Chicken Wings: $15.95 — Tandoori seasoned and marinated chicken wings deep fried
+- Jerk Chicken Wings: $15.95 — Jerk seasoned & marinated chicken wings deep fried
+
+### Drinks: Beer
+
+- Budweiser/Blue/Coors Light/Canadian/Export/Dry: $5.50+TAX
+- Moosehead: $6.00+TAX
+- Corona/Heineken/Stella Artois/Guinness/Dragon Stout: $7.00+TAX
+
+### Drinks: Spirits
+
+- Shot 1oz: $6.00 — Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey
+- Shot 1oz: $6.00 — Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy
+- Mixed Drink 1oz: $7.00
+
+### Drinks: Non-alcoholic
+
+- Hot Coffee: $2.50
+- Hot Tea: $2.50
+- Soft Drink: $2.50
+- Apple Juice: $2.50
+- Orange Juice: $2.50
+- Bottled Water: $1.50
+
+Menu items, prices, and hours can change. The official website is the current source of truth.

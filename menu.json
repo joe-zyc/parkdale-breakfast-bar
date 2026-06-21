@@ -1,0 +1,370 @@
+{
+  "sections": [
+    {
+      "id": "specials",
+      "title": "Specials",
+      "subsections": [
+        {
+          "id": "breakfast",
+          "title": "Breakfast",
+          "items": [
+            {
+              "name": "Parkdale Breakfast House Special Breakfast",
+              "price": "$8.95",
+              "id": 24,
+              "description": "2 eggs, 2 bacon, butter toasted bread, 1 fast fry steak and potato wedges",
+              "image": "/images/menu/24.webp"
+            }
+          ]
+        },
+        {
+          "id": "special-combination-dishes",
+          "title": "Special Combination Dishes",
+          "items": [
+            {
+              "name": "Fried Rice with shrimp, BBQ Chicken and BBQ Pork",
+              "price": "$16.95",
+              "id": 27,
+              "description": "Chinese BBQ chicken, pork & shrimp with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
+            },
+            {
+              "name": "Chow Mein with Shrimp, BBQ Chicken and BBQ Pork",
+              "price": "$18.95",
+              "id": 28,
+              "description": "Chinese bbq chicken, pork & shrimp with 4 colour sweet peppers, bok choy, cabbage, carrots & celery"
+            },
+            {
+              "name": "Fried Rice with Fish And Shrimp",
+              "price": "$18.00",
+              "id": 29,
+              "description": "Egg fried rice with 4 colour sweet pepers, bok choy, cabbage, carrots & celery"
+            },
+            {
+              "name": "Chow Mein with Fish And Shrimp",
+              "price": "$20.00",
+              "id": 30,
+              "description": "Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery"
+            }
+          ]
+        },
+        {
+          "id": "chef-special-dishes",
+          "title": "Chef Special Dishes",
+          "items": [
+            {
+              "name": "Chef Special Poutine",
+              "price": "$13.95",
+              "id": 31,
+              "description": "Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream"
+            },
+            {
+              "name": "Fish and Bread Sandwich",
+              "price": "$11.95",
+              "id": 32,
+              "description": "Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "title": "Mains",
+      "subsections": [
+        {
+          "id": "platter",
+          "title": "Platter",
+          "items": [
+            {
+              "name": "BBQ Chicken Fried Rice",
+              "price": "$10.95",
+              "id": 9,
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
+              "image": "/images/menu/9.webp"
+            },
+            {
+              "name": "BBQ Pork Fried Rice",
+              "price": "$11.95",
+              "id": 10,
+              "description": "Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery"
+            },
+            {
+              "name": "Shrimp Fried Rice",
+              "price": "$14.95",
+              "id": 11,
+              "description": "16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",
+              "image": "/images/menu/11.webp"
+            },
+            {
+              "name": "BBQ Chicken Chow Mein",
+              "price": "$12.95",
+              "id": 12,
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",
+              "image": "/images/menu/12.webp"
+            },
+            {
+              "name": "BBQ Pork Chow Mein",
+              "price": "$13.95",
+              "id": 13,
+              "description": "Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery"
+            },
+            {
+              "name": "Shrimp Chow Mein",
+              "price": "$15.95",
+              "id": 14,
+              "description": "16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",
+              "image": "/images/menu/14.webp"
+            },
+            {
+              "name": "Fried Chicken Leg Add To Any Dishes Above",
+              "price": "$4.00",
+              "id": 15,
+              "description": "Season & Marinated Chicken Leg: Regular, Tandoori or Jerk"
+            }
+          ]
+        },
+        {
+          "id": "curry-dishes",
+          "title": "Curry Dishes",
+          "items": [
+            {
+              "name": "Chicken Curry with Rice",
+              "price": "$10.95",
+              "id": 16,
+              "description": "Guyanese style chicken curry with potato & white steam rice",
+              "image": "/images/menu/16.webp"
+            },
+            {
+              "name": "Fish Curry with Rice",
+              "price": "$12.95",
+              "id": 17,
+              "description": "Guyanese style Basa fried fish curry with green mango & okra"
+            },
+            {
+              "name": "Chicken Curry with Roti",
+              "price": "$12.95",
+              "id": 18,
+              "description": "Guyanese style chicken curry with potato"
+            },
+            {
+              "name": "Fish Curry with Roti",
+              "price": "$14.95",
+              "id": 19,
+              "description": "Guyanese style Basa fried fish curry with green mango & okra"
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips",
+          "title": "Fish And Chips",
+          "items": [
+            {
+              "name": "Basa Fish and Chips Large",
+              "price": "$14.95",
+              "id": 20,
+              "description": "Special house made season & batter with one half side of fish deep fried",
+              "image": "/images/menu/20.webp"
+            }
+          ]
+        },
+        {
+          "id": "hamburger-sandwich",
+          "title": "Hamburger / Sandwich",
+          "items": [
+            {
+              "name": "Hamburger ( Cheese Burger )",
+              "price": "$6.95",
+              "id": 22,
+              "description": "House made hamburger with lettuce, tomato, onion & special house made sauce"
+            },
+            {
+              "name": "Hamburger with Fries ( Cheese burger )",
+              "price": "$9.95",
+              "id": 23,
+              "description": "House made hamburger with lettuce, tomato, onion & special house made sauce & fries",
+              "image": "/images/menu/23.webp"
+            }
+          ]
+        },
+        {
+          "id": "combination-dishes",
+          "title": "Combination dishes",
+          "items": [
+            {
+              "name": "BBQ Chicken Fried Rice with Chicken Leg",
+              "price": "$14.95",
+              "id": 25,
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
+            },
+            {
+              "name": "BBQ Chicken Chow Mein with Chicken Leg",
+              "price": "$16.95",
+              "id": 26,
+              "description": "Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "title": "Snacks",
+      "subsections": [
+        {
+          "id": "fried",
+          "title": "Fried",
+          "items": [
+            {
+              "name": "French Fries",
+              "price": "$5.95",
+              "id": 1,
+              "description": "Crispy seasoned French fries"
+            },
+            {
+              "name": "Potato Wedges",
+              "price": "$6.95",
+              "id": 2,
+              "description": "Spicy Crispy seasoned potato wedges"
+            },
+            {
+              "name": "Onion Rings",
+              "price": "$7.95",
+              "id": 3,
+              "description": "Crispy breaded and seasoned onion rings"
+            },
+            {
+              "name": "Large Poutine",
+              "price": "$9.95",
+              "id": 4,
+              "description": "Crispy seasoned French fries with cheese and gravy",
+              "image": "/images/menu/4.webp"
+            },
+            {
+              "name": "Calamari",
+              "price": "$15.95",
+              "id": 5,
+              "description": "Crispy breaded squid rings"
+            }
+          ]
+        },
+        {
+          "id": "wings",
+          "title": "Wings",
+          "items": [
+            {
+              "name": "Regular chicken Wings with Sauce",
+              "price": "$15.95",
+              "id": 6,
+              "description": "Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",
+              "image": "/images/menu/6.webp"
+            },
+            {
+              "name": "Tandoori Chicken Wings",
+              "price": "$15.95",
+              "id": 7,
+              "description": "Tandoori seasoned and marinated chicken wings deep fried",
+              "image": "/images/menu/7.webp"
+            },
+            {
+              "name": "Jerk Chicken Wings",
+              "price": "$15.95",
+              "id": 8,
+              "description": "Jerk seasoned & marinated chicken wings deep fried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "subsections": [
+        {
+          "id": "beer",
+          "title": "Beer",
+          "items": [
+            {
+              "name": "Budweiser/Blue/Coors Light/Canadian/Export/Dry",
+              "price": "$5.50+TAX",
+              "id": 106,
+              "image": "/images/menu/106.webp"
+            },
+            {
+              "name": "Moosehead",
+              "price": "$6.00+TAX",
+              "id": 113,
+              "image": "/images/menu/113.webp"
+            },
+            {
+              "name": "Corona/Heineken/Stella Artois/Guinness/Dragon Stout",
+              "price": "$7.00+TAX",
+              "id": 116,
+              "image": "/images/menu/116.webp"
+            }
+          ]
+        },
+        {
+          "id": "spirits",
+          "title": "Spirits",
+          "items": [
+            {
+              "name": "Shot 1oz",
+              "price": "$6.00",
+              "id": 119,
+              "description": "Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey",
+              "image": "/images/menu/119.webp"
+            },
+            {
+              "name": "Shot 1oz",
+              "price": "$6.00",
+              "id": 120,
+              "description": "Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy",
+              "image": "/images/menu/120.webp"
+            },
+            {
+              "name": "Mixed Drink 1oz",
+              "price": "$7.00",
+              "id": 118
+            }
+          ]
+        },
+        {
+          "id": "non-alcoholic",
+          "title": "Non-alcoholic",
+          "items": [
+            {
+              "name": "Hot Coffee",
+              "price": "$2.50",
+              "id": 100
+            },
+            {
+              "name": "Hot Tea",
+              "price": "$2.50",
+              "id": 101
+            },
+            {
+              "name": "Soft Drink",
+              "price": "$2.50",
+              "id": 102
+            },
+            {
+              "name": "Apple Juice",
+              "price": "$2.50",
+              "id": 103
+            },
+            {
+              "name": "Orange Juice",
+              "price": "$2.50",
+              "id": 104
+            },
+            {
+              "name": "Bottled Water",
+              "price": "$1.50",
+              "id": 105
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
