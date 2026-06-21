@@ -47,10 +47,10 @@ Put menu images in `public/images/menu/`. Items without an `image` still render 
 
 ## Convert a CSV menu
 
-Use `utils/csv_to_menu_json.py` to generate `src/data/menu.json` from a CSV file.
+Use `utils/update_menu_from_csv/csv_to_menu_json.py` to generate `src/data/menu.json` from a CSV file.
 
 ```bash
-python3 utils/csv_to_menu_json.py
+python3 utils/update_menu_from_csv/csv_to_menu_json.py
 ```
 
 Example CSV:

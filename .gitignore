@@ -2,3 +2,6 @@ node_modules/
 dist/
 local/
 __pycache__/
+.env
+utils/.venv/
+secret.yml

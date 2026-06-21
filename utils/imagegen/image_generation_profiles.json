@@ -1,0 +1,29 @@
+{
+  "api": {
+    "model": "gpt-image-2",
+    "size": "1280x720",
+    "quality": "medium",
+    "output_compression": 90
+  },
+  "output": {
+    "width": 800,
+    "height": 450,
+    "max_bytes": 153600
+  },
+  "profiles": {
+    "food": {
+      "reference": "image_generation_references/food.webp",
+      "scene": "a softly textured, seamless warm beige tabletop and backdrop matching Image 2",
+      "composition": "clean centered food presentation, natural three-quarter view, complete plate or bowl visible with comfortable margins",
+      "lighting": "soft warm studio light with gentle natural shadows and appetizing detail",
+      "palette": "warm beige and honey-toned neutrals matching Image 2 without tinting the food"
+    },
+    "drink": {
+      "reference": "image_generation_references/drink.webp",
+      "scene": "a dark, warm, softly blurred bar interior with a rich wood surface matching Image 2",
+      "composition": "clean centered product presentation, complete bottles or glasses visible and evenly spaced with comfortable margins",
+      "lighting": "controlled warm bar lighting with readable labels, realistic highlights, and gentle grounded shadows",
+      "palette": "dark walnut, amber, and restrained warm highlights matching Image 2"
+    }
+  }
+}

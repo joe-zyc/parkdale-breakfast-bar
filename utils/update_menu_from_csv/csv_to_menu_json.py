@@ -12,7 +12,7 @@ Aliases are also accepted:
   item_description -> description
 
 Example:
-  python3 utils/csv_to_menu_json.py
+  python3 utils/update_menu_from_csv/csv_to_menu_json.py
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ import re
 from pathlib import Path
 
 MENU_JSON_PATH = Path("src/data/menu.json")
-DEFAULT_CSV_PATH = Path("utils/parkdale_menu.csv")
+DEFAULT_CSV_PATH = Path("utils/update_menu_from_csv/parkdale_menu.csv")
 
 
 def clean(value: str | None) -> str:
