@@ -19,66 +19,27 @@
 
 ## Menu
 
-### Specials: Breakfast
+### Breakfast: Breakfast Menu
 
-- Parkdale Breakfast House Special Breakfast: $8.95 — 2 eggs, 2 bacon, butter toasted bread, 1 fast fry steak and potato wedges
+- House Breakfast Special: $9.99 — 2 eggs, home fries, toast, and choice of sausage or bacon
+- French Toast: $8.99 — 3 pieces of French toast with syrup and butter
+- Pancakes: $8.99 — 3 homemade pancakes with syrup and butter
 
-### Specials: Special Combination Dishes
+### Lunch: Lunch Menu
 
-- Fried Rice with shrimp, BBQ Chicken and BBQ Pork: $16.95 — Chinese BBQ chicken, pork & shrimp with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
-- Chow Mein with Shrimp, BBQ Chicken and BBQ Pork: $18.95 — Chinese bbq chicken, pork & shrimp with 4 colour sweet peppers, bok choy, cabbage, carrots & celery
-- Fried Rice with Fish And Shrimp: $18.00 — Egg fried rice with 4 colour sweet pepers, bok choy, cabbage, carrots & celery
-- Chow Mein with Fish And Shrimp: $20.00 — Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery
+- Hamburger: $9.99 — Fresh beef patty served with crispy fries. Add cheese $1.50. Add bacon $1.50
+- Chicken Wings: $12.99 — 1 lb of fresh wings with a choice of sauce, served with crispy fries. Sauces: Plain, BBQ, Honey Garlic, or XXX Spicy
+- Fish & Chips: $13.99 — Crispy fresh fish served with fries and tartar sauce
+- Fried Chicken: $9.99 — 2 pieces of fresh crispy chicken served with fries
 
-### Specials: Chef Special Dishes
+### Sides: Sides
 
-- Chef Special Poutine: $13.95 — Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream
-- Fish and Bread Sandwich: $11.95 — Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce
-
-### Mains: Platter
-
-- BBQ Chicken Fried Rice: $10.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
-- BBQ Pork Fried Rice: $11.95 — Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery
-- Shrimp Fried Rice: $14.95 — 16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery
-- BBQ Chicken Chow Mein: $12.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
-- BBQ Pork Chow Mein: $13.95 — Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery
-- Shrimp Chow Mein: $15.95 — 16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery
-- Fried Chicken Leg Add To Any Dishes Above: $4.00 — Season & Marinated Chicken Leg: Regular, Tandoori or Jerk
-
-### Mains: Curry Dishes
-
-- Chicken Curry with Rice: $10.95 — Guyanese style chicken curry with potato & white steam rice
-- Fish Curry with Rice: $12.95 — Guyanese style Basa fried fish curry with green mango & okra
-- Chicken Curry with Roti: $12.95 — Guyanese style chicken curry with potato
-- Fish Curry with Roti: $14.95 — Guyanese style Basa fried fish curry with green mango & okra
-
-### Mains: Fish And Chips
-
-- Basa Fish and Chips Large: $14.95 — Special house made season & batter with one half side of fish deep fried
-
-### Mains: Hamburger / Sandwich
-
-- Hamburger ( Cheese Burger ): $6.95 — House made hamburger with lettuce, tomato, onion & special house made sauce
-- Hamburger with Fries ( Cheese burger ): $9.95 — House made hamburger with lettuce, tomato, onion & special house made sauce & fries
-
-### Mains: Combination dishes
-
-- BBQ Chicken Fried Rice with Chicken Leg: $14.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
-- BBQ Chicken Chow Mein with Chicken Leg: $16.95 — Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery
-
-### Snacks: Fried
-
-- French Fries: $5.95 — Crispy seasoned French fries
-- Potato Wedges: $6.95 — Spicy Crispy seasoned potato wedges
-- Onion Rings: $7.95 — Crispy breaded and seasoned onion rings
-- Large Poutine: $9.95 — Crispy seasoned French fries with cheese and gravy
-- Calamari: $15.95 — Crispy breaded squid rings
-
-### Snacks: Wings
-
-- Regular chicken Wings with Sauce: $15.95 — Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )
-- Tandoori Chicken Wings: $15.95 — Tandoori seasoned and marinated chicken wings deep fried
-- Jerk Chicken Wings: $15.95 — Jerk seasoned & marinated chicken wings deep fried
+- Shrimp Fried Rice: $12.99 — Chinese fried rice served with shrimp
+- Poutine: $9.99 — Crispy French fries smothered in cheese and gravy
+- Chinese Fried Rice: $8.99 — Stir-fried rice with mixed vegetables and soy sauce
+- French Fries: $5.99 — Crispy French fries
+- Potato Wedges: $6.99 — Seasoned potato wedges
+- Spring Rolls: $5.99 — 5 vegetable spring rolls served with plum sauce
 
 ### Drinks: Beer
 
