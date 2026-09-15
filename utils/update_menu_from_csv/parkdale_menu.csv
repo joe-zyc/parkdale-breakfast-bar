@@ -1,44 +1,26 @@
 section_title,subsection_title,item_id,name,description,price,image
-Specials,Breakfast,24,Parkdale Breakfast House Special Breakfast,"2 eggs, 2 bacon, butter toasted bread, 1 fast fry steak and potato wedges",$8.95,\images\menu\24.webp
-Specials,Special Combination Dishes,27,"Fried Rice with shrimp, BBQ Chicken and BBQ Pork","Chinese BBQ chicken, pork & shrimp with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$16.95,
-Specials,Special Combination Dishes,28,"Chow Mein with Shrimp, BBQ Chicken and BBQ Pork","Chinese bbq chicken, pork & shrimp with 4 colour sweet peppers, bok choy, cabbage, carrots & celery",$18.95,
-Specials,Special Combination Dishes,29,Fried Rice with Fish And Shrimp,"Egg fried rice with 4 colour sweet pepers, bok choy, cabbage, carrots & celery",$18.00,
-Specials,Special Combination Dishes,30,Chow Mein with Fish And Shrimp,"Egg chow mein with 4 colour sweet pepers, bok choy,cabbage, carrots & celery",$20.00,
-Specials,Chef Special Dishes,31,Chef Special Poutine,"Crispy fries with gravy, bacon, ground meat, chease curd, triple mix cheese & sour cream",$13.95,
-Specials,Chef Special Dishes,32,Fish and Bread Sandwich,"Fried banga mary fish with pickle red onion, tomato,lemon,coriander & tarter sauce",$11.95,
-Mains,Platter,9,BBQ Chicken Fried Rice,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$10.95,\images\menu\9.webp
-Mains,Platter,10,BBQ Pork Fried Rice,"Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery",$11.95,
-Mains,Platter,11,Shrimp Fried Rice,"16/20 Shrimp split & fried with 4 colour sweet peppers, bok choy, carrots & celery",$14.95,\images\menu\11.webp
-Mains,Platter,12,BBQ Chicken Chow Mein,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$12.95,\images\menu\12.webp
-Mains,Platter,13,BBQ Pork Chow Mein,"Chinese style BBQ Pork with 4 colour sweet peppers, bok choy, carrots & celery",$13.95,
-Mains,Platter,14,Shrimp Chow Mein,"16/20 Shrimp split & Fried with 4 colour sweet peppers, bok Choy, carrots & celery",$15.95,\images\menu\14.webp
-Mains,Platter,15,Fried Chicken Leg Add To Any Dishes Above,"Season & Marinated Chicken Leg: Regular, Tandoori or Jerk",$4.00,
-Mains,Curry Dishes,16,Chicken Curry with Rice,Guyanese style chicken curry with potato & white steam rice,$10.95,\images\menu\16.webp
-Mains,Curry Dishes,17,Fish Curry with Rice,Guyanese style Basa fried fish curry with green mango & okra,$12.95,
-Mains,Curry Dishes,18,Chicken Curry with Roti,Guyanese style chicken curry with potato,$12.95,
-Mains,Curry Dishes,19,Fish Curry with Roti,Guyanese style Basa fried fish curry with green mango & okra,$14.95,
-Mains,Fish And Chips,20,Basa Fish and Chips Large,Special house made season & batter with one half side of fish deep fried,$14.95,\images\menu\20.webp
-Mains,Hamburger / Sandwich,22,Hamburger ( Cheese Burger ),"House made hamburger with lettuce, tomato, onion & special house made sauce",$6.95,
-Mains,Hamburger / Sandwich,23,Hamburger with Fries ( Cheese burger ),"House made hamburger with lettuce, tomato, onion & special house made sauce & fries",$9.95,\images\menu\23.webp
-Mains,Combination dishes,25,BBQ Chicken Fried Rice with Chicken Leg,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$14.95,
-Mains,Combination dishes,26,BBQ Chicken Chow Mein with Chicken Leg,"Chinese style BBQ chicken with 4 colour sweet peppers, bok choy & cabbage, carrots & celery",$16.95,
-Snacks,Fried,1,French Fries,Crispy seasoned French fries,$5.95,
-Snacks,Fried,2,Potato Wedges,Spicy Crispy seasoned potato wedges,$6.95,
-Snacks,Fried,3,Onion Rings,Crispy breaded and seasoned onion rings,$7.95,
-Snacks,Fried,4,Large Poutine,Crispy seasoned French fries with cheese and gravy,$9.95,\images\menu\4.webp
-Snacks,Fried,5,Calamari,Crispy breaded squid rings,$15.95,
-Snacks,Wings,6,Regular chicken Wings with Sauce,"Seasoned & marinated wings ( Blue cheese, Honey garlic, hickory BBQ, hot buffalo )",$15.95,\images\menu\6.webp
-Snacks,Wings,7,Tandoori Chicken Wings,Tandoori seasoned and marinated chicken wings deep fried,$15.95,\images\menu\7.webp
-Snacks,Wings,8,Jerk Chicken Wings,Jerk seasoned & marinated chicken wings deep fried,$15.95,
-Drinks,Beer,106,Budweiser/Blue/Coors Light/Canadian/Export/Dry,,$5.50+TAX,\images\menu\106.webp
-Drinks,Beer,113,Moosehead,,$6.00+TAX,\images\menu\113.webp
-Drinks,Beer,116,Corona/Heineken/Stella Artois/Guinness/Dragon Stout,,$7.00+TAX,\images\menu\116.webp
-Drinks,Spirits,119,Shot 1oz,Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey,$6.00,\images\menu\119.webp
-Drinks,Spirits,120,Shot 1oz,Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy,$6.00,\images\menu\120.webp
-Drinks,Spirits,118,Mixed Drink 1oz,,$7.00,
-Drinks,Non-alcoholic,100,Hot Coffee,,$2.50,
-Drinks,Non-alcoholic,101,Hot Tea,,$2.50,
-Drinks,Non-alcoholic,102,Soft Drink,,$2.50,
-Drinks,Non-alcoholic,103,Apple Juice,,$2.50,
-Drinks,Non-alcoholic,104,Orange Juice,,$2.50,
-Drinks,Non-alcoholic,105,Bottled Water,,$1.50,
+Breakfast,Breakfast Menu,24,House Breakfast Special,"2 eggs, home fries, toast, and choice of sausage or bacon",$9.99,/images/menu/24.webp
+Breakfast,Breakfast Menu,2,French Toast,3 pieces of French toast with syrup and butter,$8.99,/images/menu/2.webp
+Breakfast,Breakfast Menu,3,Pancakes,3 homemade pancakes with syrup and butter,$8.99,/images/menu/3.webp
+Lunch,Lunch Menu,23,Hamburger,"Fresh beef patty served with crispy fries. Add cheese $1.50. Add bacon $1.50",$9.99,/images/menu/23.webp
+Lunch,Lunch Menu,6,Chicken Wings,"1 lb of fresh wings with a choice of sauce, served with crispy fries. Sauces: Plain, BBQ, Honey Garlic, or XXX Spicy",$12.99,/images/menu/6.webp
+Lunch,Lunch Menu,20,Fish & Chips,Crispy fresh fish served with fries and tartar sauce,$13.99,/images/menu/20.webp
+Lunch,Lunch Menu,7,Fried Chicken,2 pieces of fresh crispy chicken served with fries,$9.99,/images/menu/7.webp
+Sides,Sides,11,Shrimp Fried Rice,Chinese fried rice served with shrimp,$12.99,/images/menu/11.webp
+Sides,Sides,4,Poutine,Crispy French fries smothered in cheese and gravy,$9.99,/images/menu/4.webp
+Sides,Sides,10,Chinese Fried Rice,Stir-fried rice with mixed vegetables and soy sauce,$8.99,/images/menu/10.webp
+Sides,Sides,12,French Fries,Crispy French fries,$5.99,/images/menu/12.webp
+Sides,Sides,14,Potato Wedges,Seasoned potato wedges,$6.99,/images/menu/14.webp
+Sides,Sides,15,Spring Rolls,5 vegetable spring rolls served with plum sauce,$5.99,/images/menu/15.webp
+Drinks,Beer,106,Budweiser/Blue/Coors Light/Canadian/Export/Dry,,$5.50+TAX,/images/menu/106.webp
+Drinks,Beer,113,Moosehead,,$6.00+TAX,/images/menu/113.webp
+Drinks,Beer,116,Corona/Heineken/Stella Artois/Guinness/Dragon Stout,,$7.00+TAX,/images/menu/116.webp
+Drinks,Spirits,119,Shot 1oz,Canadian Club / J.P. Wiser's Deluxe / Captain Morgan Spiced Rum / Bacardí White Rum / Jameson Irish Whiskey,$6.00,/images/menu/119.webp
+Drinks,Spirits,120,Shot 1oz,Baileys Irish Cream / Smirnoff Vodka / Crown Royal Whisky / Tequila Añejo / St-Rémy VSOP Brandy,$6.00,/images/menu/120.webp
+Drinks,Spirits,118,Mixed Drink 1oz,,$7.00,/images/menu/118.webp
+Drinks,Non-alcoholic,100,Hot Coffee,,$2.50,/images/menu/100.webp
+Drinks,Non-alcoholic,101,Hot Tea,,$2.50,/images/menu/101.webp
+Drinks,Non-alcoholic,102,Soft Drink,,$2.50,/images/menu/102.webp
+Drinks,Non-alcoholic,103,Apple Juice,,$2.50,/images/menu/103.webp
+Drinks,Non-alcoholic,104,Orange Juice,,$2.50,/images/menu/104.webp
+Drinks,Non-alcoholic,105,Bottled Water,,$1.50,/images/menu/105.webp

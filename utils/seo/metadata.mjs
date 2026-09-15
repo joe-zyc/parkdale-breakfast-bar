@@ -254,9 +254,16 @@ export function seoMetadataPlugin({ rootDirectory = process.cwd() } = {}) {
       }
     },
     configureServer(server) {
+      const configuredBase = server.config.base ?? '/';
+      const basePath = configuredBase === '/'
+        ? '/'
+        : `/${configuredBase.replace(/^\/+|\/+$/g, '')}/`;
+
       server.middlewares.use((request, response, next) => {
         const pathname = new URL(request.url ?? '/', 'http://localhost').pathname;
-        const fileName = pathname.split('/').at(-1);
+        const fileName = [...CRAWLER_ASSETS].find(
+          (assetName) => pathname === `${basePath}${assetName}` || pathname === `/${assetName}`,
+        );
         if (!CRAWLER_ASSETS.has(fileName)) {
           next();
           return;
