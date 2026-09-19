@@ -14,21 +14,28 @@
     "addressRegion": "ON",
     "addressCountry": "CA"
   },
-  "phone": "+1 437-855-5571",
+  "phone": "+1 647-624-7917",
   "hours": [
     {
       "days": "Monday - Thursday",
-      "time": "11:00 AM - 11:00 PM",
+      "time": "2:00 PM - 10:00 PM",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-      "opens": "11:00",
-      "closes": "23:00"
+      "opens": "14:00",
+      "closes": "22:00"
     },
     {
-      "days": "Friday - Sunday",
-      "time": "11:00 AM - 2:00 AM",
-      "dayOfWeek": ["Friday", "Saturday", "Sunday"],
-      "opens": "11:00",
-      "closes": "02:00"
+      "days": "Friday - Saturday",
+      "time": "3:00 PM - 12:00 AM",
+      "dayOfWeek": ["Friday", "Saturday"],
+      "opens": "15:00",
+      "closes": "00:00"
+    },
+    {
+      "days": "Sunday",
+      "time": "2:00 PM - 10:00 PM",
+      "dayOfWeek": ["Sunday"],
+      "opens": "14:00",
+      "closes": "22:00"
     }
   ],
   "mapUrl": "https://maps.app.goo.gl/Li8dRHt27GxLRdbWA",

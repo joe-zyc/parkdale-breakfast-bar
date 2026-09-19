@@ -21,7 +21,7 @@ test('structured data contains restaurant and menu items', () => {
   const data = JSON.parse(script[1]);
   const restaurant = data['@graph'].find((item) => item['@type'] === 'Restaurant');
   const menu = data['@graph'].find((item) => item['@type'] === 'Menu');
-  assert.equal(restaurant.telephone, '+1 437-855-5571');
+  assert.equal(restaurant.telephone, '+1 647-624-7917');
   assert.ok(menu.hasMenuSection.length >= 4);
   assert.equal(menu.hasMenuSection.flatMap((section) => section.hasMenuItem).length, 25);
 });
@@ -46,7 +46,7 @@ test('every menu item uses its ID-named image and burger add-ons stay in its des
 test('crawler assets use canonical URLs and current content', () => {
   assert.match(metadata.assets['robots.txt'], /Sitemap: https:\/\/joe-zyc\.github\.io\/parkdale-breakfast-bar\/sitemap\.xml/);
   assert.match(metadata.assets['sitemap.xml'], /<lastmod>2026-06-20<\/lastmod>/);
-  assert.match(metadata.assets['llms.txt'], /\+1 437-855-5571/);
+  assert.match(metadata.assets['llms.txt'], /\+1 647-624-7917/);
   assert.match(metadata.assets['llms.txt'], /House Breakfast Special/);
   assert.match(metadata.assets['llms.txt'], /Moosehead/);
   assert.deepEqual(JSON.parse(metadata.assets['menu.json']), metadata.menu);
